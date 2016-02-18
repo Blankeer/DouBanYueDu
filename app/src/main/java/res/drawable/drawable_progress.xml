@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item>
+        <rotate android:fromDegrees="0.0" android:toDegrees="720.0" android:pivotX="50%" android:pivotY="50%">
+            <shape android:shape="3" android:innerRadiusRatio="2.5" android:thicknessRatio="40.0" android:useLevel="false">
+                <size android:height="@dimen/size_progress_bar" android:width="@dimen/size_progress_bar" />
+                <gradient android:startColor="#0071ceb5" android:endColor="@color/green" android:useLevel="false" android:type="2" android:centerY="0.5" />
+            </shape>
+        </rotate>
+    </item>
+    <item>
+        <bitmap android:gravity="11" android:src="@drawable/ic_wagtail" />
+    </item>
+</layer-list>

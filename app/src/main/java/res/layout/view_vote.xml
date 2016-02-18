@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <TextView app:gravity="11" app:id="@id/vote_up" app:paddingTop="@dimen/general_subview_vertical_padding_medium" app:paddingBottom="@dimen/general_subview_vertical_padding_medium" app:layout_weight="1.0" app:textColorArray="@array/action_text_color" style="@style/AppWidget_Text_Secondary" />
+    <View app:layout_marginTop="@dimen/general_subview_vertical_padding_small" app:layout_marginBottom="@dimen/general_subview_vertical_padding_small" style="@style/AppWidget_Divider_Vertical" />
+    <TextView app:gravity="11" app:id="@id/vote_down" app:paddingTop="@dimen/general_subview_vertical_padding_medium" app:paddingBottom="@dimen/general_subview_vertical_padding_medium" app:layout_weight="1.0" app:textColorArray="@array/action_text_color" style="@style/AppWidget_Text_Secondary" />
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout app:background="?unknown_attr_ref: 7f0100ce" app:layout_width="-1" app:layout_height="-1">
+    <LinearLayout app:orientation="1" app:fitsSystemWindows="true" app:layout_width="-1" app:layout_height="-1">
+        <com.douban.book.reader.view.OverlayToolbar app:id="@id/toolbar" style="@style/AppWidget_Toolbar" />
+        <FrameLayout app:id="@id/frag_container" app:layout_width="-1" app:layout_height="-1" app:foreground="?unknown_attr_ref: 1010059" app:backgroundColorArray="@array/page_bg_color" />
+    </LinearLayout> />

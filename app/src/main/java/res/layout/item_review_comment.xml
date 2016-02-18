@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/AppWidget_List_Item">
+    <LinearLayout android:orientation="0" android:id="@id/creator_layout" android:layout_width="-1" android:layout_height="-2">
+        <com.douban.book.reader.view.UserAvatarView android:id="@id/creator_avatar" style="@style/AppWidget_ImageView_UserAvatar_Small" />
+        <TextView android:layout_gravity="10" android:id="@id/created_info" android:layout_marginLeft="@dimen/general_subview_horizontal_padding_normal" android:layout_marginRight="40dp" style="@style/AppWidget_Text_Secondary" />
+        <View android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" />
+        <TextView android:layout_gravity="10" android:id="@id/btn_delete" android:visibility="2" android:text="@string/btn_delete" style="@style/AppWidget_Text_Link_Medium" />
+    </LinearLayout>
+    <TextView android:id="@id/content" android:layout_marginTop="@dimen/general_subview_horizontal_padding_normal" android:layout_below="@id/creator_layout" style="@style/AppWidget_Text_Content_Block" />
+</RelativeLayout>

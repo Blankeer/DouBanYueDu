@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector app:height="100dp" app:width="100dp" app:viewportWidth="100.0" app:viewportHeight="100.0" app:vc_viewportWidth="100.0" app:vc_viewportHeight="100.0">
+    <path app:fillColor="#ffffff" app:pathData="M 19.5 40.2 H 80.9 V 87.7 H 19.5 V 40.2 Z" app:fillAlpha="0.5" app:vc_pathData="M 19.5 40.2 H 80.9 V 87.7 H 19.5 V 40.2 Z" app:vc_fillColor="#ffffff" app:vc_fillAlpha="0.5" />
+    <path app:fillColor="#ffffff" app:pathData="M16.7,90v-80h66.6v80H16.7zM21.2,14.5v71.1h57.8v-71.1H21.2z" app:vc_pathData="M16.7,90v-80h66.6v80H16.7zM21.2,14.5v71.1h57.8v-71.1H21.2z" app:vc_fillColor="#ffffff" />
+    <path app:fillColor="#ffffff" app:pathData="M63.4,30v-2.2h6.6v2.2H63.4zM63.4,34.5h-2.2v2.2h-6.6h-2.2v-4.5h2.2v2.2h4.5v-2.2h-2.2V30h-2.2v-2.2h6.6v2.2h2.2v2.2V34.5zM43.4,34.5h6.6v2.2h-6.6V34.5zM41.2,32.2V30h2.2v-2.2h6.6v2.2v2.2h-2.2h-4.5v2.2h-2.2L41.2,32.2L41.2,32.2zM36.7,32.2h-4.5v4.5h-2.2v-4.5V30v-4.5v-2.2h2.2h4.5h2.2v13.4h-2.2V32.2zM36.7,25.5h-4.5v4.5h4.5V25.5z" app:vc_pathData="M63.4,30v-2.2h6.6v2.2H63.4zM63.4,34.5h-2.2v2.2h-6.6h-2.2v-4.5h2.2v2.2h4.5v-2.2h-2.2V30h-2.2v-2.2h6.6v2.2h2.2v2.2V34.5zM43.4,34.5h6.6v2.2h-6.6V34.5zM41.2,32.2V30h2.2v-2.2h6.6v2.2v2.2h-2.2h-4.5v2.2h-2.2L41.2,32.2L41.2,32.2zM36.7,32.2h-4.5v4.5h-2.2v-4.5V30v-4.5v-2.2h2.2h4.5h2.2v13.4h-2.2V32.2zM36.7,25.5h-4.5v4.5h4.5V25.5z" app:vc_fillColor="#ffffff" />
+    <path app:fillColor="#ffffff" app:pathData="M67.8,23.4h2.2v13.4h-2.2V23.4z" app:vc_pathData="M67.8,23.4h2.2v13.4h-2.2V23.4z" app:vc_fillColor="#ffffff" />
+    <path app:fillColor="#ffffff" app:pathData="M63.4,34.5h6.6v2.2h-6.6V34.5z" app:vc_pathData="M63.4,34.5h6.6v2.2h-6.6V34.5z" app:vc_fillColor="#ffffff" />
+</vector>

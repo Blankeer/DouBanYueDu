@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="-1" android:layout_height="-1">
+    <ScrollView android:id="@id/gallery_legend_wrapper" android:fadingEdge="0" android:layout_width="-1" android:layout_height="-2" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:overScrollMode="2">
+        <LinearLayout android:orientation="1" android:id="@id/gallery_catalog_wrapper" android:layout_width="-1" android:layout_height="-2" />
+    </ScrollView>
+</merge>

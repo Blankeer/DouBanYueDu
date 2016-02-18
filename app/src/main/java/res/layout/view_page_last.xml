@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView reader:layout_width="-1" reader:layout_height="-1" style="@style/AppWidget_Page">
+    <LinearLayout reader:gravity="1" reader:orientation="1" reader:layout_width="-1" reader:layout_height="-2">
+        <TextView reader:gravity="11" reader:id="@id/title" reader:layout_marginTop="100dp" reader:textColorArray="@array/blue" style="@style/AppWidget_Text_Title_Page" />
+        <LinearLayout reader:gravity="1" reader:orientation="1" reader:layout_width="-1" reader:layout_height="-2" reader:layout_marginTop="@dimen/general_subview_vertical_padding_huge" reader:layout_marginBottom="@dimen/general_subview_vertical_padding_large">
+            <TextView reader:id="@id/column_plan_info" reader:visibility="2" reader:layout_width="-2" reader:layout_height="-2" style="@style/AppWidget_Text_Content" />
+            <TextView reader:id="@id/text_purchase_tip" reader:visibility="2" reader:layout_marginTop="@dimen/general_subview_vertical_padding_medium" reader:text="@string/last_page_view_message_purchase" style="@style/AppWidget_Text_Content" />
+            <TextView reader:id="@id/text_subscription_info" reader:visibility="2" reader:layout_width="-2" reader:layout_height="-2" reader:layout_marginTop="@dimen/general_subview_vertical_padding_medium" style="@style/AppWidget_Text_Secondary" />
+            <TextView reader:id="@id/text_download_info" reader:visibility="2" reader:layout_width="-2" reader:layout_height="-2" reader:layout_marginTop="@dimen/general_subview_vertical_padding_medium" reader:text="@string/last_page_view_message_download" style="@style/AppWidget_Text_Secondary" />
+        </LinearLayout>
+        <Button reader:id="@id/btn_download" reader:visibility="2" reader:layout_width="@dimen/btn_width_large" reader:layout_marginTop="@dimen/general_subview_vertical_padding_medium" style="@style/AppWidget_Button_Primary" />
+        <LinearLayout reader:gravity="1" reader:orientation="1" reader:layout_width="-2" reader:layout_height="-2" reader:layout_marginTop="@dimen/general_subview_vertical_padding_medium">
+            <Button reader:id="@id/btn_subscribe" reader:visibility="2" reader:layout_width="@dimen/btn_width_large" reader:text="@string/btn_subscribe" style="@style/AppWidget_Button_Secondary" />
+            <ProgressBar reader:id="@id/subscribe_progress_bar" reader:visibility="2" reader:layout_height="@dimen/btn_height" style="@style/AppWidget_ProgressBar" />
+        </LinearLayout>
+        <Button reader:id="@id/btn_purchase" reader:visibility="2" reader:layout_width="@dimen/btn_width_large" reader:layout_marginTop="@dimen/general_subview_vertical_padding_medium" style="@style/AppWidget_Button_Primary" />
+        <TextView reader:id="@id/text_rating_tip" reader:visibility="2" reader:layout_marginTop="@dimen/general_subview_vertical_padding_huge" reader:layout_marginBottom="@dimen/general_subview_vertical_padding_medium" reader:text="@string/last_page_view_message_rate" style="@style/AppWidget_Text_Content" />
+        <LinearLayout reader:gravity="1" reader:orientation="1" reader:id="@id/rating_layout" reader:visibility="2" reader:clickable="true" reader:layout_width="-2" reader:layout_height="-2" reader:layout_marginTop="@dimen/general_subview_vertical_padding_normal">
+            <RatingBar reader:id="@id/rating_bar" reader:stepSize="1.0" style="@style/AppWidget_RatingBar_Large_Indicator" />
+        </LinearLayout>
+        <View reader:layout_width="-1" reader:layout_height="100dp" />
+    </LinearLayout>
+</ScrollView>

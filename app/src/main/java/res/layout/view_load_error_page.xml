@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <LinearLayout android:gravity="1" android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="1" android:id="@id/img_bie" android:layout_width="200dp" android:layout_height="200dp" android:layout_marginTop="@dimen/general_subview_vertical_padding_large" android:scaleType="7" />
+        <TextView android:textSize="@dimen/general_font_size_normal" android:gravity="1" android:layout_gravity="1" android:id="@id/hint_text" android:layout_marginTop="@dimen/general_subview_vertical_padding_large" android:text="@string/general_load_failed" style="@style/AppWidget_Text_Secondary" />
+        <Button android:layout_gravity="1" android:id="@id/btn_refresh" android:layout_marginTop="@dimen/general_subview_vertical_padding_medium" android:text="@string/btn_refresh" style="@style/AppWidget_Button_Secondary" />
+        <Button android:layout_gravity="1" android:id="@id/btn_to_shelf" android:layout_marginTop="@dimen/general_subview_vertical_padding_medium" android:text="@string/btn_to_shelf" style="@style/AppWidget_Button_Secondary" />
+    </LinearLayout>
+</merge>

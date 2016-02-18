@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-1">
+    <TextView app:gravity="3" app:id="@id/btn_deposit_record" app:paddingLeft="@dimen/page_horizontal_padding" app:paddingRight="@dimen/page_horizontal_padding" app:layout_width="-1" app:layout_height="-2" app:text="@string/title_deposit_record" app:drawableRight="@drawable/ic_arrow_right" app:colorizeDrawableEnabled="true" style="@style/AppWidget_Text_Clickable" />
+    <View style="@style/AppWidget_Divider_Horizontal" />
+    <TextView app:gravity="3" app:id="@id/btn_purchase_record" app:paddingLeft="@dimen/page_horizontal_padding" app:paddingRight="@dimen/page_horizontal_padding" app:layout_width="-1" app:layout_height="-2" app:text="@string/title_purchase_record" app:drawableRight="@drawable/ic_arrow_right" app:colorizeDrawableEnabled="true" style="@style/AppWidget_Text_Clickable" />
+    <View style="@style/AppWidget_Divider_Horizontal" />
+    <TextView app:gravity="3" app:id="@id/btn_coupon_record" app:paddingLeft="@dimen/page_horizontal_padding" app:paddingRight="@dimen/page_horizontal_padding" app:layout_width="-1" app:layout_height="-2" app:text="@string/title_redeem_amount_record" app:drawableRight="@drawable/ic_arrow_right" app:colorizeDrawableEnabled="true" style="@style/AppWidget_Text_Clickable" />
+    <View style="@style/AppWidget_Divider_Horizontal" />
+    <TextView app:gravity="3" app:id="@id/btn_redemption_record" app:paddingLeft="@dimen/page_horizontal_padding" app:paddingRight="@dimen/page_horizontal_padding" app:layout_width="-1" app:layout_height="-2" app:text="@string/title_redeem_works_record" app:drawableRight="@drawable/ic_arrow_right" app:colorizeDrawableEnabled="true" style="@style/AppWidget_Text_Clickable" />
+    <View style="@style/AppWidget_Divider_Horizontal" />
+</LinearLayout>

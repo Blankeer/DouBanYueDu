@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <TextView android:id="@id/title" android:paddingLeft="@dimen/page_horizontal_padding" android:paddingRight="@dimen/page_horizontal_padding" android:layout_width="-1" style="@style/AppWidget_Text_Title_Column" />
+</merge>

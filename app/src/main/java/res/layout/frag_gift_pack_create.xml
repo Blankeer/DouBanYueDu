@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:gravity="1" app:orientation="1" app:paddingTop="@dimen/general_subview_vertical_padding_normal" app:paddingBottom="@dimen/general_subview_vertical_padding_huge" app:layout_width="-1" app:layout_height="-2">
+    <TextView app:gravity="1" app:id="@id/works_title" app:paddingLeft="@dimen/page_horizontal_padding" app:paddingRight="@dimen/page_horizontal_padding" style="@style/AppWidget_Text_Title_Column" />
+    <TextView app:gravity="1" app:id="@id/works_sub_title" app:paddingLeft="@dimen/page_horizontal_padding" app:paddingRight="@dimen/page_horizontal_padding" style="@style/AppWidget_Text_Content" />
+    <com.douban.book.reader.view.BoxedWorksView_ app:id="@id/boxed_works" app:layout_width="-2" app:layout_height="@dimen/boxed_gift_view_height" app:layout_marginTop="@dimen/general_subview_vertical_padding_normal" app:layout_marginBottom="@dimen/general_subview_vertical_padding_normal" />
+    <com.douban.book.reader.view.RoundTipView app:id="@id/round_tip_1" app:layout_width="40dp" app:layout_height="40dp" app:layout_marginTop="@dimen/general_subview_vertical_padding_medium" />
+    <TextView app:text="@string/title_set_quantity" style="@style/AppWidget_Text_Title_Column" />
+    <TextView app:gravity="1" app:paddingLeft="@dimen/page_horizontal_padding_large" app:paddingRight="@dimen/page_horizontal_padding_large" app:text="@string/description_set_quantity" style="@style/AppWidget_Text_Secondary_Block" />
+    <LinearLayout app:focusable="true" app:focusableInTouchMode="true" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@dimen/general_subview_vertical_padding_normal" app:layout_marginBottom="@dimen/general_subview_vertical_padding_normal">
+        <TextView app:text="@string/text_give_gift_to_part_1" style="@style/AppWidget_Text_Title_Column" />
+        <EditText app:gravity="1" app:id="@id/quantity" app:layout_width="60dp" app:layout_height="-2" app:layout_marginLeft="@dimen/general_subview_horizontal_padding_large" app:layout_marginRight="@dimen/general_subview_horizontal_padding_large" app:text="1" app:maxLength="3" app:inputType="2" />
+        <TextView app:text="@string/text_give_gift_to_part_2" style="@style/AppWidget_Text_Title_Column" />
+    </LinearLayout>
+    <TextView app:gravity="1" app:id="@id/available_amount" app:visibility="2" style="@style/AppWidget_Text_Secondary_Block" />
+    <com.douban.book.reader.view.RoundTipView app:id="@id/round_tip_2" app:layout_width="40dp" app:layout_height="40dp" app:layout_marginTop="@dimen/general_subview_vertical_padding_large" />
+    <TextView app:text="@string/title_write_gift_message" style="@style/AppWidget_Text_Title_Column" />
+    <TextView app:gravity="1" app:paddingLeft="@dimen/page_horizontal_padding" app:paddingRight="@dimen/page_horizontal_padding" app:text="@string/description_write_gift_message" style="@style/AppWidget_Text_Secondary_Block" />
+    <RelativeLayout app:background="@drawable/ic_book_bg" app:layout_width="-1" app:layout_height="400dp" app:layout_marginTop="@dimen/general_subview_vertical_padding_large" app:autoDimInNightMode="true">
+        <ImageView app:id="@id/img_knot" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/ic_knot" app:layout_alignParentTop="true" app:layout_centerHorizontal="true" app:autoDimInNightMode="true" />
+        <TextView app:id="@id/btn_edit_gift_note" app:padding="@dimen/general_subview_padding_normal" app:layout_width="-2" app:layout_height="-2" app:layout_alignParentBottom="true" app:layout_centerHorizontal="true" style="@style/AppWidget_Text_Blue" />
+        <FrameLayout app:gravity="11" app:orientation="1" app:paddingLeft="5dp" app:layout_width="-1" app:layout_height="-1" app:layout_above="@id/btn_edit_gift_note" app:layout_below="@id/img_knot" app:layout_centerHorizontal="true">
+            <com.douban.book.reader.view.GiftMessageView_ app:layout_gravity="11" app:id="@id/gift_note_view" app:layout_width="-1" app:layout_height="-2" />
+        </FrameLayout>
+        <TextView app:textSize="@dimen/general_font_size_normal" app:id="@id/txt_write_gift_note" app:layout_width="-2" app:layout_height="-2" app:text="@string/text_write_gift_note" app:layout_centerInParent="true" style="@style/AppWidget_Text_Blue" />
+    </RelativeLayout>
+    <Button app:id="@id/btn_create_gift_pack" app:layout_marginTop="@dimen/general_subview_vertical_padding_large" style="@style/AppWidget_Button_Red_Large" />
+</LinearLayout>

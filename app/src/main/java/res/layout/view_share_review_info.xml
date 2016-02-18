@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <TextView android:id="@id/title" style="@style/AppWidget_Text_Secondary" />
+    <TextView android:ellipsize="3" android:id="@id/review_content" android:layout_marginTop="@dimen/general_subview_vertical_padding_small" android:maxLines="2" android:singleLine="false" style="@style/AppWidget_Text_Secondary_Block" />
+</merge>

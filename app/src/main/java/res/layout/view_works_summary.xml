@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <com.douban.book.reader.view.WorksCoverView app:id="@id/cover" app:layout_marginTop="@dimen/general_subview_vertical_padding_normal" app:layout_alignParentTop="true" app:layout_alignParentRight="true" style="@style/AppWidget_Cover" />
+    <LinearLayout app:gravity="1" app:orientation="0" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="2dp" app:layout_below="@id/cover" app:layout_alignLeft="@id/cover" app:layout_alignRight="@id/cover">
+        <TextView app:textSize="@dimen/general_font_size_medium" app:id="@id/works_type" app:layout_width="-2" app:layout_height="-2" app:drawablePadding="2dp" app:textColorArray="@array/blue" />
+    </LinearLayout>
+    <LinearLayout app:orientation="1" app:id="@id/works_info" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@dimen/general_subview_vertical_padding_normal" app:layout_marginRight="@dimen/general_subview_horizontal_padding_normal" app:layout_toLeftOf="@id/cover" app:layout_alignParentLeft="true" app:layout_alignParentTop="true">
+        <TextView app:textStyle="1" app:id="@id/title" style="@style/AppWidget_Text_Title_Page_NoPadding" />
+        <TextView app:textStyle="0" app:id="@id/sub_title" app:layout_marginTop="@dimen/general_subview_vertical_padding_small" app:singleLine="false" style="@style/AppWidget_Text_Title_Item" />
+        <LinearLayout app:gravity="10" app:orientation="0" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@dimen/general_subview_vertical_padding_normal">
+            <RatingBar app:id="@id/rating_bar" style="@style/AppWidget_RatingBar_Indicator" />
+            <TextView app:textSize="@dimen/general_font_size_small" app:id="@id/rating_info" app:layout_marginLeft="@dimen/general_subview_vertical_padding_small" style="@style/AppWidget_Text_Secondary" />
+        </LinearLayout>
+        <TextView app:id="@id/author" app:layout_marginTop="@dimen/general_subview_vertical_padding_normal" style="@style/AppWidget_Text_Secondary" />
+        <TextView app:id="@id/translator" app:layout_marginTop="@dimen/general_subview_vertical_padding_small" style="@style/AppWidget_Text_Secondary" />
+        <TextView app:id="@id/category" app:layout_marginTop="@dimen/general_subview_vertical_padding_small" style="@style/AppWidget_Text_Secondary" />
+        <TextView app:id="@id/content_space" app:layout_marginTop="@dimen/general_subview_vertical_padding_small" style="@style/AppWidget_Text_Secondary" />
+    </LinearLayout>
+</merge>

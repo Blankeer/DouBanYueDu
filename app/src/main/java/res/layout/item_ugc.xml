@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <ImageView app:id="@id/thumbnail" app:visibility="2" app:layout_width="-1" app:layout_height="80dp" app:layout_marginTop="@dimen/general_subview_vertical_padding_medium" app:scaleType="6" app:layout_alignParentTop="true" app:autoDimInNightMode="true" />
+    <com.douban.book.reader.view.ParagraphView app:ellipsize="3" app:id="@id/abstract_text" app:layout_width="-1" app:layout_marginTop="@dimen/general_subview_vertical_padding_medium" app:maxLines="3" style="@style/AppWidget_Text_Content_Block" />
+    <TextView app:id="@id/create_date" app:layout_width="-1" app:layout_marginTop="@dimen/general_subview_vertical_padding_small" style="@style/AppWidget_Text_Secondary" />
+    <TextView app:textSize="@dimen/general_font_size_tiny" app:id="@id/data_uuid" app:visibility="2" style="@style/AppWidget_Text_Secondary" />
+</merge>

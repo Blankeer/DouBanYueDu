@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.douban.book.reader.view.card.CardView reader:id="@id/root" reader:descendantFocusability="1" reader:layout_width="-1" reader:layout_height="-1" reader:backgroundColorArray="@array/page_bg_color" />

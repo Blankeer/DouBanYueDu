@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item>
+        <shape>
+            <size android:height="@dimen/height_horizontal_divider_accent" />
+            <solid android:color="@color/night_text_invert" />
+        </shape>
+    </item>
+</layer-list>

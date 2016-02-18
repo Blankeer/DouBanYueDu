@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="10" android:orientation="1" android:paddingLeft="@dimen/reader_horizontal_padding" android:paddingRight="@dimen/reader_horizontal_padding" android:paddingBottom="@dimen/reader_vertical_padding" style="@style/AppWidget_Page_NoPadding">
+    <TextView android:textSize="22dp" android:textStyle="1" android:gravity="3" android:id="@id/title" android:layout_width="-1" style="@style/AppWidget_Text_Title_Page_NoPadding" />
+    <TextView android:textSize="@dimen/general_font_size_huge" android:textStyle="0" android:gravity="3" android:id="@id/subtitle" android:layout_width="-1" android:layout_marginTop="8dp" android:singleLine="false" style="@style/AppWidget_Text_Title_Item" />
+    <TextView android:textSize="14dp" android:gravity="3" android:id="@id/author" android:layout_width="-1" android:layout_marginTop="60dp" style="@style/AppWidget_Text_Content" />
+    <TextView android:textSize="14dp" android:gravity="3" android:id="@id/translator" android:layout_width="-1" style="@style/AppWidget_Text_Content" />
+    <TextView android:textSize="14dp" android:gravity="3" android:id="@id/publisher" android:layout_width="-1" style="@style/AppWidget_Text_Content" />
+    <TextView android:textSize="14dp" android:gravity="3" android:id="@id/publish_time" android:visibility="2" android:layout_width="-1" style="@style/AppWidget_Text_Content" />
+    <TextView android:textSize="14dp" android:gravity="3" android:id="@id/on_sale_time" android:visibility="2" android:layout_width="-1" style="@style/AppWidget_Text_Content" />
+    <TextView android:textSize="14dp" android:gravity="3" android:id="@id/isbn" android:visibility="2" android:layout_width="-1" style="@style/AppWidget_Text_Content" />
+    <TextView android:textSize="@dimen/general_font_size_small" android:gravity="3" android:id="@id/works_acknowledgements" android:layout_width="-1" android:layout_marginTop="60dp" style="@style/AppWidget_Text_Secondary" />
+</LinearLayout>

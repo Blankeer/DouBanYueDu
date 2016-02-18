@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView app:layout_width="-1" app:layout_height="-1" app:backgroundColorArray="@array/page_bg_color">
+    <LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-2">
+        <include layout="@layout/frag_account_balance_summary" />
+        <View style="@style/AppWidget_Divider_Horizontal" />
+        <include layout="@layout/frag_account_balance_records" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <PreferenceCategory android:title="@string/setting_category_sns_share" android:key="setting_category_sns_share">
+        <Preference android:title="@string/setting_item_weibo" android:key="weibo_bind" />
+        <Preference android:title="@string/setting_item_qq" android:key="qq_bind" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/setting_category_read" android:key="setting_category_read">
+        <SwitchPreference android:title="@string/setting_item_reading_screensave" android:key="reading_screensave" android:defaultValue="true" />
+        <SwitchPreference android:title="@string/setting_item_pageturn_with_volume" android:key="pageturn_with_volume" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/setting_category_push">
+        <SwitchPreference android:title="@string/setting_item_push_service" android:key="enable_push_service" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/setting_category_other" android:key="setting_category_other">
+        <Preference android:persistent="false" android:title="@string/setting_item_diagnostics_feedback" android:key="setting_send_diagnostics_feedback" />
+        <Preference android:persistent="false" android:title="@string/setting_item_feedback" android:key="setting_feedback" />
+        <Preference android:persistent="false" android:title="@string/setting_item_rating" android:key="setting_rating" />
+        <Preference android:persistent="false" android:title="@string/setting_item_about" android:key="setting_about" />
+        <Preference android:persistent="false" android:title="@string/setting_item_other_apps" android:key="setting_other_apps" />
+        <Preference android:title="@string/btn_logout" android:key="setting_logout" />
+    </PreferenceCategory>
+</PreferenceScreen>

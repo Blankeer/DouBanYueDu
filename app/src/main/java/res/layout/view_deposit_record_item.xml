@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <TextView android:id="@id/time" android:layout_centerVertical="true" style="@style/AppWidget_Text_Content" />
+    <TextView android:id="@id/type" android:layout_marginLeft="@dimen/general_subview_horizontal_padding_small" android:layout_toRightOf="@id/time" android:layout_centerVertical="true" style="@style/AppWidget_Text_Content" />
+    <TextView android:textStyle="0" android:id="@id/count" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/AppWidget_Text_Title_Item" />
+</merge>

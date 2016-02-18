@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:state_enabled="false" android:color="@color/night_secondary_text_disabled" />
+    <item android:state_checked="true" android:color="@color/palette_night_red" />
+    <item android:color="@color/palette_night_blue" />
+</selector>

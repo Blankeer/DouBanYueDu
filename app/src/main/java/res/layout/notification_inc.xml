@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffff" android:layout_width="-1" android:layout_height="-1">
+    <ImageView android:id="@id/notification_background" android:layout_width="-1" android:layout_height="-2" android:scaleType="6" />
+    <LinearLayout android:orientation="1" android:id="@id/notification_layout" android:paddingTop="5dp" android:clickable="false" android:layout_width="-1" android:layout_height="-1"
+        <LinearLayout android:gravity="11" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <ImageView android:id="@id/notification_icon" android:layout_width="50dp" android:layout_height="50dp" android:scaleType="7" />
+            <LinearLayout android:orientation="0" android:id="@id/notification_right" android:paddingLeft="3dp" android:layout_width="-1" android:layout_height="-1"
+                <LinearLayout android:gravity="11" android:orientation="1" android:id="@id/notification_right_left" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.0"
+                    <LinearLayout android:orientation="0" android:id="@id/notification_right_top_left" android:layout_width="-1" android:layout_height="-2">
+                        <TextView android:textSize="16sp" android:textStyle="1" android:textColor="#000000" android:id="@id/notification_name" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" />
+                        <TextView android:textSize="16sp" android:textStyle="1" android:textColor="#000000" android:id="@id/notification_version" android:paddingLeft="10dp" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="0" android:id="@id/notification_right_under_left" android:layout_width="-1" android:layout_height="-2">
+                        <TextView android:textSize="13sp" android:textStyle="0" android:textColor="#111111" android:id="@id/notification_fullsize" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" />
+                        <TextView android:textSize="13sp" android:textStyle="0" android:textColor="#008000" android:id="@id/notification_diffsize" android:paddingLeft="10dp" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="11" android:orientation="1" android:clickable="true" android:layout_width="-2" android:layout_height="-1" android:layout_marginRight="5dp">
+                    <ImageView android:id="@id/notification_update_icon" android:layout_width="-2" android:layout_height="-2" />
+                    <TextView android:textSize="11sp" android:textColor="0x106000c" android:gravity="11" android:id="@id/notification_update_text" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" />
+                </LinearLayout>
+            </LinearLayout>
+            <RelativeLayout android:orientation="0" android:id="@id/download_layout" android:paddingLeft="3dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+                <LinearLayout android:gravity="11" android:orientation="1" android:id="@id/status" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="5dp" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                    <ImageView android:id="@id/status_img" android:layout_width="-2" android:layout_height="-2" />
+                    <TextView android:textSize="11sp" android:textColor="0x106000c" android:id="@id/status_txt" android:layout_width="-2" android:layout_height="-2" />
+                </LinearLayout>
+                <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_toLeftOf="@id/status"
+                    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2"
+                        <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_weight="1.0">
+                            <TextView android:textSize="16sp" android:textStyle="1" android:textColor="#000000" android:id="@id/download_app_name" android:layout_width="-2" android:layout_height="-2" />
+                            <TextView android:textSize="16sp" android:textStyle="1" android:textColor="#000000" android:id="@id/download_app_version" android:paddingLeft="10dp" android:layout_width="-2" android:layout_height="-2" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="1" android:paddingTop="10dp" android:paddingRight="5dp" android:layout_width="-1" android:layout_height="-2">
+                        <ProgressBar android:id="@id/downlaod_progress_horizontal" android:layout_width="-1" android:layout_height="10dp" android:max="100" android:secondaryProgress="100" style="?unknown_attr_ref: 1010078" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+            <LinearLayout android:orientation="0" android:id="@id/setup_layout" android:visibility="2" android:layout_width="-1" android:layout_height="-1"
+                <LinearLayout android:gravity="11" android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.0"
+                    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+                        <TextView android:textSize="16sp" android:textStyle="1" android:textColor="#000000" android:id="@id/setup_app_name" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" />
+                        <TextView android:textSize="16sp" android:textStyle="1" android:textColor="#000000" android:id="@id/setup_app_version" android:paddingLeft="10dp" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+                        <TextView android:textSize="13sp" android:textStyle="0" android:textColor="#111111" android:id="@id/setup_message" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="11" android:orientation="1" android:layout_width="-2" android:layout_height="-1" android:layout_marginRight="5dp">
+                    <ImageView android:id="@id/setup_icon" android:layout_width="-2" android:layout_height="-2" />
+                    <TextView android:textSize="11sp" android:textColor="0x106000c" android:gravity="11" android:id="@id/setup_text" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

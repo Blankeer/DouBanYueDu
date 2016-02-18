@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <com.douban.book.reader.view.ParagraphView app:textSize="@dimen/general_font_size_small" app:id="@id/recipient" app:layout_width="-1" app:layout_height="-2" style="@style/AppWidget_Text_Content" />
+    <com.douban.book.reader.view.FlexibleScrollView app:id="@id/gift_note_container" app:fadingEdge="2000" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@dimen/general_subview_vertical_padding_large" app:layout_marginBottom="@dimen/general_subview_vertical_padding_large" app:requiresFadingEdge="2000">
+        <com.douban.book.reader.view.ParagraphView app:textSize="@dimen/general_font_size_normal" app:id="@id/gift_note" app:layout_width="-1" app:layout_height="-2" app:textColorArray="@array/blue" style="@style/AppWidget_Text_Content_Block" />
+    </com.douban.book.reader.view.FlexibleScrollView>
+    <com.douban.book.reader.view.ParagraphView app:textSize="@dimen/general_font_size_small" app:gravity="5" app:id="@id/giver" app:layout_width="-1" app:layout_height="-2" style="@style/AppWidget_Text_Content" />
+    <com.douban.book.reader.view.ParagraphView app:textSize="@dimen/general_font_size_small" app:gravity="5" app:id="@id/give_time" app:paddingTop="5dp" app:layout_width="-1" app:layout_height="-2" style="@style/AppWidget_Text_Content" />
+</merge>

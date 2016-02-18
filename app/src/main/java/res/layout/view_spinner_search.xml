@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="?unknown_attr_ref: 10102eb">
+    <EditText android:id="@id/search_input" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/AppWidget_SearchView" />
+    <ImageView android:id="@id/btn_close" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@dimen/general_subview_horizontal_padding_normal" android:src="@drawable/ic_action_cancel" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

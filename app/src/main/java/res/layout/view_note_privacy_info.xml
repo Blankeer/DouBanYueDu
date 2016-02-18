@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-2">
+    <com.douban.book.reader.lib.view.LockView android:id="@id/btn_privacy" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" />
+    <TextView android:gravity="10" android:id="@id/text_privacy_info" android:layout_width="-2" android:layout_height="-2" android:text="@string/text_note_privacy_info_private" android:layout_toLeftOf="@id/btn_privacy" android:layout_alignTop="@id/btn_privacy" android:layout_alignBottom="@id/btn_privacy" android:layout_alignParentLeft="true" style="@style/AppWidget_Text_Secondary" />
+    <com.douban.book.reader.view.ShareTargetSelectorView_ android:id="@id/share_target" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_toLeftOf="@id/btn_privacy" android:layout_alignTop="@id/btn_privacy" android:layout_alignBottom="@id/btn_privacy" android:layout_alignParentLeft="true" />
+</RelativeLayout>

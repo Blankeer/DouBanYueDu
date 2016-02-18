@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout reader:id="@id/reader_parent_frame" reader:layout_width="-1" reader:layout_height="-1" reader:backgroundColorArray="@array/page_bg_color">
+    <com.douban.book.reader.view.ReadViewPager reader:id="@id/pager" reader:fadingEdge="0" reader:layout_width="-1" reader:layout_height="-1" reader:overScrollMode="2" />
+    <com.douban.book.reader.view.ReaderLoadingView_ reader:id="@id/loading_view" reader:layout_width="-1" reader:layout_height="-1" />
+    <com.douban.book.reader.view.ReaderGuideView reader:id="@id/reader_guide" reader:visibility="2" reader:layout_width="-1" reader:layout_height="-1" />
+    <com.douban.book.reader.view.panel.ReaderPanelView_ reader:id="@id/reader_panel" reader:layout_width="-1" reader:layout_height="-1" />
+</RelativeLayout>

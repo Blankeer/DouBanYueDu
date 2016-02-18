@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:paddingTop="@dimen/general_subview_vertical_padding_large" android:paddingBottom="@dimen/general_subview_vertical_padding_large" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textSize="@dimen/general_font_size_large" android:id="@id/works_title" style="@style/AppWidget_Text_Title_Item" />
+    <TextView android:id="@id/works_sub_title" style="@style/AppWidget_Text_Content" />
+    <TextView android:id="@id/works_info" android:layout_marginTop="@dimen/general_subview_vertical_padding_large" style="@style/AppWidget_Text_Content_Block" />
+    <com.douban.book.reader.view.ParagraphView android:id="@id/abstract_text" android:layout_marginTop="@dimen/general_subview_vertical_padding_large" android:maxLines="3" style="@style/AppWidget_Text_Content_Block" />
+    <LinearLayout android:gravity="10" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@dimen/general_subview_vertical_padding_large">
+        <TextView android:text="@string/text_rating_in_ark" style="@style/AppWidget_Text_Content" />
+        <RatingBar android:id="@id/rating_bar" style="@style/AppWidget_RatingBar_Indicator" />
+        <TextView android:textSize="@dimen/general_font_size_small" android:id="@id/rating_info" android:layout_marginLeft="@dimen/general_subview_vertical_padding_small" style="@style/AppWidget_Text_Secondary" />
+    </LinearLayout>
+</LinearLayout>

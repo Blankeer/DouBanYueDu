@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.douban.book.reader.view.store.WorksGridView_ android:id="@id/top_works" android:paddingTop="@dimen/general_subview_vertical_padding_small" android:paddingBottom="@dimen/general_subview_vertical_padding_medium" android:layout_width="-1" android:layout_height="-2" />

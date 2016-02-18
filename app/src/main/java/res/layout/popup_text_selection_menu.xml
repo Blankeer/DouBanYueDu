@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginTop="5dp" android:layout_marginRight="8dp" android:layout_marginBottom="5dp">
+    <LinearLayout android:layout_gravity="10" android:orientation="0" android:id="@id/command_bar" android:layout_width="-2" android:layout_height="-2">
+        <TextView android:id="@id/popup_menu_add_underline" android:text="@string/menu_text_selection_add_underline" style="@style/AppWidget_PopupMenuItem" />
+        <TextView android:id="@id/popup_menu_delete_underline" android:visibility="2" android:text="@string/menu_text_selection_delete_underline" style="@style/AppWidget_PopupMenuItem" />
+        <TextView android:id="@id/popup_menu_new_note" android:text="@string/menu_text_selection_note" style="@style/AppWidget_PopupMenuItem" />
+        <TextView android:id="@id/popup_menu_share" android:text="@string/menu_text_selection_share" style="@style/AppWidget_PopupMenuItem" />
+        <TextView android:id="@id/popup_menu_copy" android:text="@string/menu_text_selection_copy" style="@style/AppWidget_PopupMenuItem" />
+        <TextView android:id="@id/popup_menu_correct" android:text="@string/menu_text_selection_correct" style="@style/AppWidget_PopupMenuItem" />
+    </LinearLayout>
+    <View android:id="@id/divider" android:visibility="2" android:layout_below="@id/command_bar" android:layout_alignLeft="@id/command_bar" android:layout_alignRight="@id/command_bar" style="@style/AppWidget_Divider_Horizontal_InvertColor" />
+    <com.douban.book.reader.view.FlexibleScrollView android:id="@id/extra_commands_scroll_parent" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_below="@id/divider" android:layout_alignLeft="@id/command_bar" android:layout_alignRight="@id/command_bar">
+        <LinearLayout android:orientation="1" android:id="@id/extra_commands_base" android:layout_width="-1" android:layout_height="-2" />
+    </com.douban.book.reader.view.FlexibleScrollView>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:state_checked="true" android:color="@color/day_content_text_selected" />
+    <item android:state_enabled="false" android:color="@color/day_content_text_disabled" />
+    <item android:color="@color/day_content_text" />
+</selector>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:id="@id/root" app:descendantFocusability="2" app:layout_width="-1" app:layout_height="-1" style="@style/AppWidget_List_Item">
+    <RatingBar app:id="@id/rate" app:layout_below="@id/title" style="@style/AppWidget_RatingBar_Indicator" />
+    <TextView app:id="@id/content" app:layout_marginTop="@dimen/general_subview_vertical_padding_normal" app:layout_marginBottom="@dimen/general_subview_vertical_padding_normal" app:maxLines="3" app:layout_below="@id/rate" style="@style/AppWidget_Text_Content_Block" />
+    <LinearLayout app:gravity="10" app:layout_width="-1" app:layout_height="-2" app:layout_below="@id/content">
+        <TextView app:ellipsize="3" app:id="@id/author" app:singleLine="true" style="@style/AppWidget_Text_Secondary" />
+        <TextView app:id="@id/create_date" app:layout_marginLeft="@dimen/general_subview_horizontal_padding_normal" app:singleLine="true" style="@style/AppWidget_Text_Secondary" />
+        <View app:layout_width="0dp" app:layout_height="-1" app:layout_weight="1.0" />
+        <TextView app:textSize="@dimen/general_font_size_small" app:id="@id/comment_info" app:layout_width="-2" app:layout_height="-2" app:singleLine="true" app:textColorArray="@array/blue" />
+    </LinearLayout>
+</RelativeLayout>

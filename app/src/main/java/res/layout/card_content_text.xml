@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:gravity="1" app:orientation="1" app:layout_width="-1" app:layout_height="-2">
+    <com.douban.book.reader.view.ParagraphView app:id="@id/content_text" app:visibility="2" app:layout_width="-1" style="@style/AppWidget_Text_Content_Block" />
+    <ImageView app:id="@id/expand_handle" app:paddingTop="@dimen/general_subview_vertical_padding_medium" app:paddingBottom="@dimen/general_subview_vertical_padding_medium" app:visibility="2" app:layout_width="-1" app:layout_height="-2" app:src="@drawable/ic_expand" app:autoDimInNightMode="true" />
+</LinearLayout>

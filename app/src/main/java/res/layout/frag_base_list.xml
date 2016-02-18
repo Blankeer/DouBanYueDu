@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root" style="@style/AppWidget_Page_NoPadding">
+    <ListView android:id="@id/list" style="@style/AppWidget_List" />
+    <TextView android:layout_gravity="11" android:id="@id/empty_hint" android:paddingBottom="100dp" android:visibility="2" style="@style/AppWidget_Text_Secondary" />
+</FrameLayout>

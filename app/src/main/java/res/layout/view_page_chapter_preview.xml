@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="-1" android:layout_height="-1">
+    <TextView android:gravity="1" android:id="@id/title" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="30dp" android:layout_marginRight="20dp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/AppWidget_Text_Title_Page" />
+    <TextView android:id="@id/publish_date" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="4dp" android:layout_below="@id/title" android:layout_centerHorizontal="true" style="@style/AppWidget_Text_Secondary" />
+    <View android:id="@id/top_divider" android:layout_marginLeft="20dp" android:layout_marginTop="20dp" android:layout_marginRight="20dp" android:layout_below="@id/publish_date" style="@style/AppWidget_Divider_Horizontal" />
+    <LinearLayout android:gravity="1" android:orientation="1" android:id="@id/button_group" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="20dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <Button android:id="@id/btn_purchase_works" android:layout_width="@dimen/btn_width_large" style="@style/AppWidget_Button_Primary" />
+        <Button android:id="@id/btn_download" android:layout_width="@dimen/btn_width_large" android:layout_marginTop="@dimen/general_subview_vertical_padding_normal" style="@style/AppWidget_Button_Primary" />
+        <Button android:id="@id/btn_purchase_chapter" android:layout_width="@dimen/btn_width_large" android:layout_marginTop="@dimen/general_subview_vertical_padding_normal" style="@style/AppWidget_Button_Secondary" />
+    </LinearLayout>
+    <TextView android:id="@id/text_status_indicator" android:layout_marginBottom="@dimen/general_subview_vertical_padding_medium" android:text="@string/msg_chapter_purchase_needed" android:layout_above="@id/button_group" android:layout_centerHorizontal="true" style="@style/AppWidget_Text_Content" />
+    <View android:id="@id/bottom_divider" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_marginBottom="20dp" android:layout_above="@id/text_status_indicator" style="@style/AppWidget_Divider_Horizontal" />
+    <com.douban.book.reader.view.FlexibleScrollView android:id="@id/summary_container" android:paddingTop="@dimen/general_subview_vertical_padding_medium" android:paddingBottom="@dimen/general_subview_vertical_padding_medium" android:fadingEdge="2000" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_above="@id/bottom_divider" android:layout_below="@id/top_divider" android:requiresFadingEdge="2000">
+        <com.douban.book.reader.view.ParagraphView android:id="@id/summary" style="@style/AppWidget_Text_Content_Block" />
+    </com.douban.book.reader.view.FlexibleScrollView>
+</merge>

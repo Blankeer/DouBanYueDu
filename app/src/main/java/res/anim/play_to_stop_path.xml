@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator app:duration="100" app:valueFrom="@string/path_play" app:valueTo="@string/path_stop" app:valueType="2" app:propertyName="pathData" app:vc_valueType="2" />

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item reader:icon="@drawable/ic_action_submit" reader:id="@id/action_submit" reader:title="@string/action_submit" reader:showAsAction="1" />
+</menu>

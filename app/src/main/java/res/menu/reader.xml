@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item reader:icon="@drawable/ic_action_purchase" reader:id="@id/action_purchase" reader:title="@string/action_purchase" reader:showAsAction="2" />
+    <item reader:icon="@drawable/ic_action_add_shortcut" reader:id="@id/action_add_shortcut" reader:title="@string/action_add_shortcut" reader:showAsAction="1" />
+    <item reader:icon="@drawable/ic_action_share" reader:id="@id/action_share" reader:title="@string/action_share" reader:showAsAction="1" />
+    <item reader:icon="@drawable/ic_action_info" reader:id="@id/action_profile" reader:title="@string/title_works_profile" reader:showAsAction="1" />
+</menu>

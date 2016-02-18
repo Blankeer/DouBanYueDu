@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root" style="@style/AppWidget_Page_NoPadding">
+    <com.mcxiaoke.next.ui.endless.EndlessListView android:id="@id/list" style="@style/AppWidget_List" />
+</FrameLayout>

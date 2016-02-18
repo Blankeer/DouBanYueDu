@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.douban.book.reader.view.GridItemView app:gravity="11" app:layout_gravity="11" app:layout_width="-1" app:layout_height="-2">
+    <RelativeLayout app:id="@id/works_cover" app:layout_width="-2" app:layout_height="-2">
+        <com.douban.book.reader.view.WorksCoverView app:id="@id/cover" style="@style/AppWidget_Cover" />
+        <ImageView app:id="@id/ic_download_status" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:layout_centerInParent="true" app:autoDimInNightMode="true" />
+        <ProgressBar app:id="@id/download_progress" app:layout_alignLeft="@id/cover" app:layout_alignRight="@id/cover" app:layout_alignBottom="@id/cover" app:layout_centerHorizontal="true" style="@style/AppWidget_ProgressBar_Horizontal" />
+        <com.douban.book.reader.lib.view.StrokeTextView app:textSize="@dimen/general_font_size_large" app:textColor="@color/palette_day_green" app:gravity="1" app:id="@id/download_progress_text" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:layout_alignLeft="@id/cover" app:layout_alignRight="@id/cover" app:layout_centerVertical="true" app:textColorArray="@dx/a" />
+        <com.douban.book.reader.view.CheckableImageView app:id="@id/ic_check" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/check_mark_round" app:layout_alignRight="@id/cover" app:layout_alignBottom="@id/cover" app:autoDimInNightMode="true" />
+    </RelativeLayout>
+    <TextView app:textSize="@dimen/general_font_size_small" app:ellipsize="3" app:gravity="3" app:id="@id/text_title" app:paddingLeft="@dimen/padding_around_cover" app:paddingRight="@dimen/padding_around_cover" app:layout_width="-2" app:layout_height="@dimen/height_item_store_works" app:layout_marginTop="@dimen/general_subview_vertical_padding_small" app:maxLines="2" app:layout_below="@id/works_cover" app:layout_alignLeft="@id/works_cover" app:layout_alignRight="@id/works_cover" style="@style/AppWidget_Text_Content" />
+</com.douban.book.reader.view.GridItemView>

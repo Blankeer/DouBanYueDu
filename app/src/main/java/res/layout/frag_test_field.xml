@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView app:layout_width="-1" app:layout_height="-1">
+    <LinearLayout app:orientation="1" app:id="@id/root" style="@style/AppWidget_Page">
+        <TextView app:textSize="@dimen/general_font_size_normal" app:id="@id/icon_font_showcase" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@dimen/general_subview_vertical_padding_large" app:textColorArray="@array/blue" />
+        <TextView app:textSize="40dp" app:id="@id/icon_font_showcase_large" app:layout_width="-1" app:layout_height="-2" app:textColorArray="@array/blue" />
+        <com.douban.book.reader.view.BoxedWorksView_ app:id="@id/boxed_works" app:layout_width="-1" app:layout_height="200dp" app:layout_marginTop="@dimen/general_subview_vertical_padding_normal" />
+        <com.douban.book.reader.view.BoxedWorksView_ app:id="@id/boxed_works_2" app:layout_width="-1" app:layout_height="200dp" app:layout_marginTop="@dimen/general_subview_vertical_padding_normal" />
+        <ProgressBar app:layout_gravity="1" app:id="@id/progress_bar" app:visibility="2" app:layout_marginTop="@dimen/general_subview_vertical_padding_normal" style="@style/AppWidget_ProgressBar" />
+        <TextView app:id="@id/btn_show_loading_not_block" app:layout_marginTop="@dimen/general_subview_vertical_padding_normal" app:text="Primary" style="@style/AppWidget_Button_Primary" />
+        <Button app:id="@id/btn_show_loading_block" app:layout_marginTop="@dimen/general_subview_vertical_padding_normal" app:text="Secondary" style="@style/AppWidget_Button_Secondary" />
+        <Button app:layout_gravity="1" app:id="@id/btn_purchase_secretly" app:layout_marginTop="@dimen/general_subview_vertical_padding_normal" app:text="Small" style="@style/AppWidget_Button_Small" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root" android:descendantFocusability="2" style="@style/AppWidget_List_Item">
+    <com.douban.book.reader.view.WorksCoverView android:id="@id/cover" android:layout_alignParentLeft="true" style="@style/AppWidget_Cover" />
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@dimen/general_subview_horizontal_padding_normal" android:layout_toRightOf="@id/cover" android:layout_alignParentRight="true">
+        <TextView android:id="@id/title" android:singleLine="false" style="@style/AppWidget_Text_Title_Item" />
+        <TextView android:textSize="@dimen/general_font_size_medium" android:id="@id/sub_title" style="@style/AppWidget_Text_Content" />
+        <TextView android:id="@id/author" android:layout_marginTop="@dimen/general_subview_vertical_padding_normal" android:singleLine="true" style="@style/AppWidget_Text_Secondary" />
+        <LinearLayout android:gravity="10" android:orientation="0" android:id="@id/rating_layout" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@dimen/general_subview_horizontal_padding_normal">
+            <RatingBar android:id="@id/rating_bar" style="@style/AppWidget_RatingBar_Indicator" />
+            <TextView android:textSize="@dimen/general_font_size_small" android:id="@id/rating_info" android:layout_marginLeft="@dimen/general_subview_vertical_padding_small" style="@style/AppWidget_Text_Secondary" />
+        </LinearLayout>
+        <TextView android:id="@id/abstract_text" android:visibility="2" android:layout_marginTop="@dimen/general_subview_horizontal_padding_normal" android:maxLines="3" android:singleLine="false" style="@style/AppWidget_Text_Secondary" />
+        <com.douban.book.reader.view.PriceLabelView android:textSize="@dimen/general_font_size_small" android:id="@id/works_price" android:visibility="2" android:layout_marginTop="@dimen/general_subview_vertical_padding_normal" style="@style/AppWidget_Text_Secondary" />
+    </LinearLayout>
+</RelativeLayout>

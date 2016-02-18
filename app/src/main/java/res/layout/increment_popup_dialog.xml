@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="11" android:background="#00000000" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:gravity="11" android:orientation="1" android:id="@id/m_background" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp"
+        <LinearLayout android:gravity="13" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp">
+            <TextView android:textSize="20dp" android:textColor="#191919" android:id="@id/app_name_title" android:layout_width="-2" android:layout_height="-2" android:text="" android:singleLine="true" android:layout_weight="1.0" />
+        </LinearLayout>
+        <View android:background="#666666" android:layout_width="-1" android:layout_height="1px" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" />
+        <LinearLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginTop="10dp" android:layout_marginBottom="5dp">
+            <RelativeLayout android:layout_width="-2" android:layout_height="-2">
+                <ImageView android:id="@id/app_logo" android:layout_width="48dp" android:layout_height="48dp" />
+                <ImageView android:id="@id/app_logo_province" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_weight="1.0"
+                <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+                    <TextView android:textSize="16dp" android:textColor="#191919" android:id="@id/app_name" android:layout_width="-2" android:layout_height="-2" android:text="" android:singleLine="true" />
+                    <TextView android:textSize="12dp" android:textColor="#191919" android:id="@id/app_version" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" />
+                </LinearLayout>
+                <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+                    <TextView android:textSize="12dp" android:textColor="#191919" android:id="@id/app_size" android:layout_width="-2" android:layout_height="-2" />
+                    <TextView android:textSize="12dp" android:textColor="#191919" android:id="@id/app_need_size" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5dp" />
+                </LinearLayout>
+                <ProgressBar android:id="@id/app_progress" android:layout_width="-1" android:layout_height="8dp" android:layout_marginTop="5dp" android:max="100" android:secondaryProgress="100" style="?unknown_attr_ref: 1010078" />
+            </LinearLayout>
+            <LinearLayout android:gravity="11" android:orientation="1" android:layout_width="55dp" android:layout_height="-2" android:layout_marginRight="5dp">
+                <ImageView android:id="@id/click_upload" android:layout_width="-2" android:layout_height="-2" />
+                <TextView android:textSize="12sp" android:textColor="#191919" android:id="@id/upload_status" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:id="@id/update" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginBottom="5dp">
+            <TextView android:textSize="12sp" android:textColor="#191919" android:id="@id/update_msg" android:layout_width="-2" android:layout_height="-2" />
+            <LinearLayout android:orientation="1" android:layout_width="170dp" android:layout_height="-2">
+                <TextView android:textSize="12sp" android:textColor="#191919" android:id="@id/update_msg1" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" />
+                <TextView android:textSize="12sp" android:textColor="#191919" android:id="@id/update_msg2" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="10" android:orientation="1" android:id="@id/down_click_linearLayout" android:paddingBottom="5dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="5dp">
+            <TextView android:textSize="12sp" android:textColor="#ffffffff" android:id="@id/other_operation" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" />
+            <LinearLayout android:gravity="11" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginTop="5dp" android:layout_marginRight="15dp">
+                <TextView android:textSize="14sp" android:textColor="#191919" android:gravity="11" android:id="@id/manage_app" android:paddingTop="2dp" android:paddingBottom="5dp" android:layout_width="-1" android:layout_height="40dp" android:layout_margin="8dp" android:layout_weight="1.0" />
+                <TextView android:textSize="14sp" android:textColor="#ffffffff" android:gravity="11" android:id="@id/wifi_download" android:paddingTop="2dp" android:paddingBottom="5dp" android:layout_width="-1" android:layout_height="40dp" android:layout_margin="8dp" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="5" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_marginRight="20dp">
+                <TextView android:textSize="12sp" android:textColor="#ffffffff" android:id="@id/next_time" android:layout_width="-2" android:layout_height="-2" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="11" android:id="@id/click_down" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="5dp" android:layout_marginRight="5dp">
+            <ImageView android:id="@id/click_down_img" android:layout_width="-2" android:layout_height="-2" />
+        </LinearLayout>
+        <TextView android:textSize="16dp" android:textColor="#191919" android:id="@id/maybe" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:layout_marginBottom="10dp" />
+        <LinearLayout android:orientation="0" android:id="@id/maybe_list" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp"
+            <LinearLayout android:gravity="11" android:orientation="1" android:id="@id/recommend_lin1" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_weight="1.0">
+                <RelativeLayout android:layout_gravity="11" android:layout_width="-2" android:layout_height="-2">
+                    <ImageView android:id="@id/recommend_logo1" android:layout_width="48dp" android:layout_height="48dp" />
+                    <TextView android:textSize="8sp" android:textColor="#191919" android:gravity="11" android:id="@id/rec_install1" android:layout_width="44dp" android:layout_height="-2" android:layout_marginLeft="2dp" android:layout_marginTop="30dp" />
+                    <ProgressBar android:id="@id/recommend_pro1" android:visibility="2" android:layout_width="41dp" android:layout_height="11dp" android:layout_marginLeft="4dp" android:layout_marginTop="32dp" android:max="100" android:secondaryProgress="100" style="?unknown_attr_ref: 1010078" />
+                    <TextView android:textSize="8sp" android:textColor="#ffffffff" android:gravity="11" android:id="@id/status1" android:visibility="2" android:layout_width="37dp" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginTop="32dp" />
+                </RelativeLayout>
+                <TextView android:textSize="12dp" android:textColor="#191919" android:gravity="11" android:id="@id/recommend1" android:layout_width="60dp" android:layout_height="-2" android:text="" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:gravity="11" android:orientation="1" android:id="@id/recommend_lin2" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_weight="1.0">
+                <RelativeLayout android:layout_gravity="11" android:layout_width="-2" android:layout_height="-2">
+                    <ImageView android:id="@id/recommend_logo2" android:layout_width="48dp" android:layout_height="48dp" />
+                    <TextView android:textSize="8sp" android:textColor="#191919" android:gravity="11" android:id="@id/rec_install2" android:layout_width="44dp" android:layout_height="-2" android:layout_marginLeft="2dp" android:layout_marginTop="30dp" />
+                    <ProgressBar android:id="@id/recommend_pro2" android:visibility="2" android:layout_width="41dp" android:layout_height="11dp" android:layout_marginLeft="4dp" android:layout_marginTop="32dp" android:max="100" android:secondaryProgress="100" style="?unknown_attr_ref: 1010078" />
+                    <TextView android:textSize="8sp" android:textColor="#ffffffff" android:gravity="11" android:id="@id/status2" android:visibility="2" android:layout_width="37dp" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginTop="32dp" />
+                </RelativeLayout>
+                <TextView android:textSize="12dp" android:textColor="#191919" android:gravity="11" android:id="@id/recommend2" android:layout_width="60dp" android:layout_height="-2" android:text="" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:gravity="11" android:orientation="1" android:id="@id/recommend_lin3" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_weight="1.0">
+                <RelativeLayout android:layout_gravity="11" android:layout_width="-2" android:layout_height="-2">
+                    <ImageView android:id="@id/recommend_logo3" android:layout_width="48dp" android:layout_height="48dp" />
+                    <TextView android:textSize="8sp" android:textColor="#191919" android:gravity="11" android:id="@id/rec_install3" android:layout_width="44dp" android:layout_height="-2" android:layout_marginLeft="2dp" android:layout_marginTop="30dp" />
+                    <ProgressBar android:id="@id/recommend_pro3" android:visibility="2" android:layout_width="41dp" android:layout_height="11dp" android:layout_marginLeft="4dp" android:layout_marginTop="32dp" android:max="100" android:secondaryProgress="100" style="?unknown_attr_ref: 1010078" />
+                    <TextView android:textSize="8sp" android:textColor="#ffffffff" android:gravity="11" android:id="@id/status3" android:visibility="2" android:layout_width="37dp" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginTop="32dp" />
+                </RelativeLayout>
+                <TextView android:textSize="12dp" android:textColor="#191919" android:gravity="11" android:id="@id/recommend3" android:layout_width="60dp" android:layout_height="-2" android:text="" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:gravity="11" android:orientation="1" android:id="@id/recommend_lin4" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_weight="1.0">
+                <RelativeLayout android:layout_gravity="11" android:layout_width="-2" android:layout_height="-2">
+                    <ImageView android:id="@id/recommend_logo4" android:layout_width="48dp" android:layout_height="48dp" />
+                    <TextView android:textSize="8sp" android:textColor="#191919" android:gravity="11" android:id="@id/rec_install4" android:layout_width="44dp" android:layout_height="-2" android:layout_marginLeft="2dp" android:layout_marginTop="30dp" />
+                    <ProgressBar android:id="@id/recommend_pro4" android:visibility="2" android:layout_width="41dp" android:layout_height="11dp" android:layout_marginLeft="4dp" android:layout_marginTop="32dp" android:max="100" android:secondaryProgress="100" style="?unknown_attr_ref: 1010078" />
+                    <TextView android:textSize="8sp" android:textColor="#ffffffff" android:gravity="11" android:id="@id/status4" android:visibility="2" android:layout_width="37dp" android:layout_height="-2" android:layout_marginLeft="8dp" android:layout_marginTop="32dp" />
+                </RelativeLayout>
+                <TextView android:textSize="12dp" android:textColor="#191919" android:gravity="11" android:id="@id/recommend4" android:layout_width="60dp" android:layout_height="-2" android:text="" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="5" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:id="@id/close" android:layout_width="-2" android:layout_height="-2" />
+    </LinearLayout>
+</RelativeLayout>

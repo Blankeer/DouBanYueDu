@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <LinearLayout android:orientation="0" android:id="@id/header" android:layout_width="-1" android:layout_height="-2">
+        <com.douban.book.reader.view.UserAvatarView android:id="@id/creator_avatar" style="@style/AppWidget_ImageView_UserAvatar_Small" />
+        <TextView android:layout_gravity="10" android:id="@id/creator" android:layout_marginLeft="@dimen/general_subview_horizontal_padding_normal" android:lineSpacingExtra="0dp" style="@style/AppWidget_Text_Title_Item" />
+        <TextView android:textSize="@dimen/general_font_size_large" android:layout_gravity="10" android:id="@id/btn_works_profile" android:layout_marginLeft="@dimen/general_subview_horizontal_padding_normal" android:singleLine="true" style="@style/AppWidget_Text_Secondary" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/rate_layout" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@dimen/general_subview_vertical_padding_normal" android:layout_below="@id/header">
+        <RatingBar android:id="@id/rate" android:layout_centerVertical="true" style="@style/AppWidget_RatingBar_Indicator" />
+        <TextView android:id="@id/created_date" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/AppWidget_Text_Secondary" />
+    </RelativeLayout>
+    <com.douban.book.reader.view.ParagraphView android:id="@id/content" android:layout_width="-1" android:layout_marginTop="@dimen/general_subview_vertical_padding_normal" android:layout_below="@id/rate_layout" style="@style/AppWidget_Text_Content_Block" />
+    <ProgressBar android:id="@id/progress" style="@style/AppWidget_ProgressBar" />
+</merge>

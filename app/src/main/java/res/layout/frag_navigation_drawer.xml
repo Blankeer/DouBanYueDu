@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout reader:layout_width="-1" reader:layout_height="-1">
+    <ScrollView reader:clipToPadding="false" reader:layout_width="-1" reader:layout_height="-1" reader:fillViewport="true" reader:backgroundColorArray="@array/page_bg_color">
+        <LinearLayout reader:orientation="1" reader:layout_width="-1" reader:layout_height="-2">
+            <com.douban.book.reader.view.UserSummaryView_ reader:id="@id/user_summary" reader:layout_width="-1" reader:layout_height="-2" />
+            <View style="@style/AppWidget_Divider_Horizontal" />
+            <com.douban.book.reader.lib.view.BadgeTextView reader:id="@id/drawer_menu_shelf" reader:text="@string/drawer_menu_shelf" reader:drawableLeft="@drawable/ic_shelf_drawer" style="@style/Drawer_MenuItem_Normal" />
+            <View style="@style/AppWidget_Divider_Horizontal" />
+            <TextView reader:id="@id/drawer_menu_store" reader:text="@string/drawer_menu_store" reader:drawableLeft="@drawable/ic_store_drawer" style="@style/Drawer_MenuItem_Normal" />
+            <View style="@style/AppWidget_Divider_Horizontal" />
+            <TextView reader:id="@id/drawer_menu_search" reader:text="@string/drawer_menu_search" reader:drawableLeft="@drawable/ic_search_drawer" style="@style/Drawer_MenuItem_Normal" />
+            <View style="@style/AppWidget_Divider_Horizontal" />
+            <LinearLayout reader:orientation="1" reader:id="@id/test_field" reader:layout_width="-1" reader:layout_height="-2">
+                <TextView reader:id="@id/drawer_menu_test_field" reader:text="@string/title_test_field" reader:drawableLeft="@drawable/ic_shelf_drawer" style="@style/Drawer_MenuItem_Normal" />
+                <View style="@style/AppWidget_Divider_Horizontal" />
+            </LinearLayout>
+            <LinearLayout reader:orientation="1" reader:id="@id/test_works" reader:layout_width="-1" reader:layout_height="-2">
+                <TextView reader:id="@id/drawer_menu_test_works" reader:text="@string/drawer_menu_test_works" reader:drawableLeft="@drawable/ic_shelf_drawer" style="@style/Drawer_MenuItem_Normal" />
+                <View style="@style/AppWidget_Divider_Horizontal" />
+            </LinearLayout>
+            <View reader:layout_width="-1" reader:layout_height="0dp" reader:layout_weight="1.0" />
+            <View style="@style/AppWidget_Divider_Horizontal" />
+            <LinearLayout reader:orientation="0" reader:layout_width="-1" reader:layout_height="-2">
+                <TextView reader:id="@id/drawer_menu_settings" reader:layout_width="0dp" reader:layout_height="-2" reader:layout_weight="1.0" style="@style/AppWidget_Text_Clickable" />
+                <View style="@style/AppWidget_Divider_Vertical" />
+                <TextView reader:id="@id/drawer_menu_theme" reader:layout_width="0dp" reader:layout_height="-2" reader:layout_weight="1.0" style="@style/AppWidget_Text_Clickable" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <View android:id="@id/status_bar_shadow" android:background="@color/semi_black" android:visibility="2" android:layout_width="-1" android:layout_height="25dp" />
+</FrameLayout>

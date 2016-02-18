@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-1" app:backgroundColorArray="@array/page_bg_color">
+    <com.douban.book.reader.view.OverlayToolbar app:id="@id/toolbar" style="@style/AppWidget_Toolbar" />
+    <FrameLayout app:layout_width="-1" app:layout_height="0dp" app:layout_weight="1.0">
+        <ScrollView app:layout_width="-1" app:layout_height="-1" app:fillViewport="true">
+            <LinearLayout app:gravity="1" app:orientation="1" app:layout_width="-1" app:layout_height="-2">
+                <com.douban.book.reader.view.UserAvatarView app:id="@id/user_avatar" app:layout_marginTop="@dimen/general_subview_vertical_padding_xlarge" style="@style/AppWidget_ImageView_UserAvatar_Small" />
+                <com.douban.book.reader.view.ParagraphView app:textSize="@dimen/general_font_size_medium" app:textStyle="2" app:id="@id/user_info" app:paddingTop="@dimen/general_subview_vertical_padding_small" app:paddingBottom="@dimen/general_subview_vertical_padding_xlarge" style="@style/AppWidget_Text_Content" />
+                <View style="@style/AppWidget_Divider_Horizontal" />
+                <LinearLayout app:orientation="1" app:paddingLeft="@dimen/page_horizontal_padding_large" app:paddingTop="@dimen/general_subview_vertical_padding_xlarge" app:paddingRight="@dimen/page_horizontal_padding_large" app:paddingBottom="@dimen/general_subview_vertical_padding_xlarge" app:layout_width="-1" app:layout_height="-2" app:backgroundColorArray="@array/page_highlight_bg_color">
+                    <TextView app:textSize="@dimen/general_font_size_tiny" app:id="@id/note_uuid" app:visibility="2" style="@style/AppWidget_Text_Secondary" />
+                    <com.douban.book.reader.view.ParagraphView app:textSize="@dimen/general_font_size_large" app:id="@id/note_detail" app:layout_width="-1" app:layout_height="-2" style="@style/AppWidget_Text_Content_Block" />
+                    <com.douban.book.reader.view.ParagraphView app:ellipsize="3" app:id="@id/quoted_text" app:layout_width="-1" app:layout_marginTop="@dimen/general_subview_vertical_padding_normal" app:layout_marginBottom="@dimen/general_subview_vertical_padding_normal" app:maxLines="3" style="@style/AppWidget_Text_Secondary_Block" />
+                    <TextView app:id="@id/note_created_date" style="@style/AppWidget_Text_Secondary" />
+                </LinearLayout>
+                <View style="@style/AppWidget_Divider_Horizontal" />
+                <com.douban.book.reader.view.NotePrivacyInfoView_ app:id="@id/note_privacy" app:paddingLeft="@dimen/page_horizontal_padding" app:paddingTop="@dimen/general_subview_vertical_padding_small" app:paddingRight="@dimen/page_horizontal_padding" app:paddingBottom="@dimen/general_subview_vertical_padding_small" app:visibility="2" app:layout_width="-1" app:layout_height="-2" app:backgroundColorArray="@array/page_highlight_bg_color" />
+                <View app:id="@id/divider_under_privacy_view" app:visibility="2" style="@style/AppWidget_Divider_Horizontal" />
+            </LinearLayout>
+        </ScrollView>
+        <FrameLayout app:id="@id/error_view_base" app:layout_width="-1" app:layout_height="-1" />
+        <FrameLayout app:id="@id/loading_view_base" app:layout_width="-1" app:layout_height="-1" /> />
+    <com.douban.book.reader.view.NoteNavigationView_ app:layout_gravity="50" app:id="@id/note_navigation" app:visibility="2" app:layout_width="-1" app:layout_height="-2" />
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="-1" android:layout_height="-1">
+    <com.douban.book.reader.view.page.FrontLayerView android:id="@id/front_layer" android:layout_width="-1" android:layout_height="-1" />
+</merge>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:textSize="@dimen/general_font_size_medium" android:textStyle="1" android:id="@id/title" style="@style/AppWidget_Text_Content" />
+    <TextView android:textSize="@dimen/general_font_size_medium" android:id="@id/author" android:layout_marginTop="@dimen/general_subview_vertical_padding_small" style="@style/AppWidget_Text_Content" />
+</LinearLayout>

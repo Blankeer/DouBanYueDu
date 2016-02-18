@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout app:layout_width="-1" app:layout_height="-1" app:backgroundColorArray="@array/page_bg_color">
+    <ImageView app:layout_gravity="50" app:layout_width="-1" app:layout_height="-2" app:src="@drawable/ic_welcome_book" app:autoDimInNightMode="true" />
+    <ScrollView app:layout_width="-1" app:layout_height="-1" app:fillViewport="true">
+        <RelativeLayout app:layout_width="-1" app:layout_height="-2">
+            <LinearLayout app:gravity="1" app:orientation="1" app:id="@id/layout_buttons" app:paddingTop="@dimen/general_subview_vertical_padding_normal" app:paddingBottom="@dimen/general_subview_vertical_padding_normal" app:layout_width="-1" app:layout_height="-2" app:layout_centerVertical="true">
+                <Button app:id="@id/btn_login" app:text="@string/btn_login" style="@style/AppWidget_Button_Primary_Large" />
+                <Button app:id="@id/btn_register" app:layout_marginTop="@dimen/general_subview_vertical_padding_normal" app:text="@string/btn_register" style="@style/AppWidget_Button_Primary_Large" />
+            </LinearLayout>
+            <RelativeLayout app:layout_width="-1" app:layout_height="-2" app:layout_above="@id/layout_buttons" app:layout_alignParentTop="true">
+                <LinearLayout app:gravity="1" app:orientation="1" app:paddingTop="@dimen/general_subview_vertical_padding_normal" app:paddingBottom="@dimen/general_subview_vertical_padding_normal" app:layout_width="-1" app:layout_height="-2" app:layout_centerInParent="true">
+                    <com.douban.book.reader.view.DoubanLogoView app:id="@id/douban_logo" app:layout_width="60dp" app:layout_height="60dp" />
+                    <TextView app:textSize="@dimen/general_font_size_normal" app:layout_marginTop="@dimen/general_subview_vertical_padding_normal" app:text="@string/text_login_with_douban" style="@style/AppWidget_Text_Content" />
+                </LinearLayout>
+            </RelativeLayout>
+            <LinearLayout app:gravity="1" app:orientation="1" app:paddingTop="@dimen/general_subview_vertical_padding_normal" app:paddingBottom="@dimen/general_subview_vertical_padding_normal" app:layout_width="-1" app:layout_height="-2" app:layout_marginBottom="75dp" app:layout_alignParentBottom="true">
+                <TextView app:textSize="@dimen/general_font_size_medium" app:paddingTop="@dimen/general_subview_vertical_padding_normal" app:paddingBottom="@dimen/general_subview_vertical_padding_small" app:text="@string/text_login_with_third_party" style="@style/AppWidget_Text_Secondary" />
+                <LinearLayout app:layout_width="-2" app:layout_height="-2">
+                    <ImageView app:id="@id/login_with_weixin" app:layout_width="30dp" app:layout_height="30dp" app:autoDimInNightMode="true" />
+                    <ImageView app:id="@id/login_with_weibo" app:layout_width="30dp" app:layout_height="30dp" app:layout_marginLeft="@dimen/general_subview_horizontal_padding_medium" app:autoDimInNightMode="true" />
+                    <ImageView app:id="@id/login_with_qq" app:visibility="2" app:layout_width="30dp" app:layout_height="30dp" app:layout_marginLeft="@dimen/general_subview_horizontal_padding_medium" app:autoDimInNightMode="true" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+    <TextView app:textSize="@dimen/general_font_size_large" app:gravity="11" app:layout_gravity="50" app:id="@id/text_try" app:paddingTop="@dimen/general_subview_vertical_padding_medium" app:paddingBottom="@dimen/general_subview_vertical_padding_medium" app:visibility="2" app:layout_width="-1" app:layout_height="-2" app:alpha="0.9" app:backgroundColorArray="@array/blue" app:textColorArray="@array/invert_text_color" />
+</FrameLayout>

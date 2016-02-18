@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout app:layout_width="-1" app:layout_height="-1" app:backgroundColorArray="@array/page_bg_color">
+    <LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-1">
+        <ListView app:scrollbarStyle="2000000" app:id="0x102000a" app:paddingLeft="@dimen/page_horizontal_padding" app:paddingTop="0dp" app:paddingRight="@dimen/page_horizontal_padding" app:paddingBottom="0dp" app:clipToPadding="false" app:layout_width="-1" app:layout_height="0px" app:drawSelectorOnTop="false" app:cacheColorHint="0x106000d" app:layout_weight="1.0" />
+        <TextView app:gravity="11" app:id="0x1020004" app:padding="@dimen/page_horizontal_padding" app:visibility="2" app:layout_width="-1" app:layout_height="-1" />
+    </LinearLayout>
+</FrameLayout>

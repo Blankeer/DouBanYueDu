@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <com.douban.book.reader.view.UserAvatarView android:id="@id/avatar" android:layout_marginRight="@dimen/general_subview_horizontal_padding_normal" style="@style/AppWidget_ImageView_UserAvatar" />
+    <LinearLayout android:layout_gravity="10" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:id="@id/username" style="@style/AppWidget_Text_Content" />
+        <TextView android:id="@id/received_time" style="@style/AppWidget_Text_Secondary" />
+    </LinearLayout>
+</merge>

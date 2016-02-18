@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector app:height="100dp" app:width="100dp" app:viewportWidth="100.0" app:viewportHeight="100.0" app:vc_viewportWidth="100.0" app:vc_viewportHeight="100.0">
+    <path app:fillColor="#000000" app:pathData="M50.001,11.539l13.185,24.174L90,40.921L71.334,61.069l3.387,27.392L50.001,76.739L25.279,88.461l3.388-27.392L10,40.921l26.816-5.208L50.001,11.539" app:vc_pathData="M50.001,11.539l13.185,24.174L90,40.921L71.334,61.069l3.387,27.392L50.001,76.739L25.279,88.461l3.388-27.392L10,40.921l26.816-5.208L50.001,11.539" app:vc_fillColor="#000000" />
+</vector>

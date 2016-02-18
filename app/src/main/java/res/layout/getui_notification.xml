@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="0x106000d" android:layout_width="-1" android:layout_height="-2">
+    <ImageView android:id="@id/getui_notification_bg" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+    <ImageView android:id="@id/getui_notification_icon" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginLeft="5dp" android:scaleType="7" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="10dp" android:id="@id/getui_notification_date" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@*style/TextAppearance.StatusBar.EventContent" />
+    <ImageView android:id="@id/getui_notification_icon2" android:layout_width="22dp" android:layout_height="22dp" android:layout_marginRight="5dp" android:scaleType="7" android:layout_alignBottom="@id/getui_notification_icon" android:layout_alignParentRight="true" />
+    <LinearLayout android:gravity="10" android:orientation="1" android:id="@id/getui_notification_style1" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="10dp" android:layout_marginRight="1dp" android:layout_toLeftOf="@id/getui_notification_date" android:layout_toRightOf="@id/getui_notification_icon">
+        <TextView android:textSize="16dp" android:id="@id/getui_notification_style1_title" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" style="@*style/TextAppearance.StatusBar.EventContent.Title" />
+        <TextView android:textSize="13dp" android:id="@id/getui_notification_style1_content" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="1dp" android:maxLines="2" style="@*style/TextAppearance.StatusBar.EventContent" />
+    </LinearLayout>
+    <LinearLayout android:gravity="10" android:orientation="1" android:id="@id/getui_notification_style2" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="10dp" android:layout_marginRight="1dp" android:layout_toLeftOf="@id/getui_notification_date" android:layout_toRightOf="@id/getui_notification_icon">
+        <TextView android:textSize="19dp" android:id="@id/getui_notification__style2_title" android:layout_width="-1" android:layout_height="-2" android:maxLines="2" style="@*style/TextAppearance.StatusBar.EventContent.Title" />
+    </LinearLayout>
+    <LinearLayout android:gravity="10" android:orientation="1" android:id="@id/getui_notification_style3" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="10dp" android:layout_marginRight="1dp" android:layout_toLeftOf="@id/getui_notification_date" android:layout_toRightOf="@id/getui_notification_icon">
+        <TextView android:textSize="13dp" android:id="@id/getui_notification_style3_content" android:layout_width="-1" android:layout_height="-2" android:maxLines="3" style="@*style/TextAppearance.StatusBar.EventContent.Title" />
+    </LinearLayout>
+    <LinearLayout android:gravity="10" android:orientation="1" android:id="@id/getui_notification_style4" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_toLeftOf="@id/getui_notification_date" android:layout_toRightOf="@id/getui_notification_icon">
+        <TextView android:textSize="16dp" android:gravity="10" android:id="@id/getui_notification_download_content" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" style="@*style/TextAppearance.StatusBar.EventContent.Title" />
+        <ProgressBar android:id="@id/getui_notification_download_progressbar" android:layout_width="-1" android:layout_height="2dp" android:layout_marginTop="2dp" style="?unknown_attr_ref: 1010078" />
+    </LinearLayout>
+    <ImageView android:id="@id/getui_bigview_expanded" android:visibility="2" android:layout_width="-1" android:layout_height="256dp" android:scaleType="6" />
+    <ImageView android:id="@id/getui_bigview_banner" android:visibility="2" android:layout_width="-1" android:layout_height="64dp" android:scaleType="6" />
+    <RelativeLayout android:id="@id/getui_notification_headsup" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:id="@id/getui_headsup_banner" android:visibility="2" android:layout_width="-1" android:layout_height="64dp" android:scaleType="6" />
+        <ImageView android:id="@id/getui_big_imageView_headsup2" android:visibility="2" android:layout_width="-1" android:layout_height="0dp" android:scaleType="6" android:layout_below="@id/getui_headsup_banner" android:layout_alignParentTop="false" />
+        <ImageView android:id="@id/getui_icon_headsup" android:paddingLeft="11dp" android:paddingTop="8dp" android:paddingRight="11dp" android:paddingBottom="13dp" android:layout_width="60dp" android:layout_height="60dp" />
+        <TextView android:textSize="16dp" android:textColor="#ffffff" android:id="@id/getui_title_headsup" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="6dp" android:layout_marginRight="10dp" android:layout_toLeftOf="@id/getui_time_headsup" android:layout_toRightOf="@id/getui_icon_headsup" />
+        <TextView android:textColor="#808080" android:id="@id/getui_time_headsup" android:paddingRight="2dp" android:layout_width="-2" android:layout_height="-2" android:layout_alignTop="@id/getui_title_headsup" android:layout_alignParentRight="true" />
+        <TextView android:textSize="14dp" android:textColor="#808080" android:id="@id/getui_message_headsup" android:layout_width="-1" android:layout_height="-2" android:layout_marginRight="10dp" android:maxLines="2" android:layout_toRightOf="@id/getui_icon_headsup" android:layout_below="@id/getui_title_headsup" />
+        <ImageView android:id="@id/getui_big_imageView_headsup" android:layout_width="-1" android:layout_height="0dp" android:scaleType="6" android:layout_below="@id/getui_icon_headsup" android:layout_alignParentTop="false" />
+        <TextView android:textColor="#808080" android:id="@id/getui_big_text_headsup" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_toRightOf="@id/getui_icon_headsup" android:layout_below="@id/getui_big_imageView_headsup" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/getui_big_default_Content" android:background="0x106000d" android:visibility="2" android:layout_width="-1" android:layout_height="-2"
+        <RelativeLayout android:id="@id/getui_big_defaultView" android:layout_width="-1" android:layout_height="64dp">
+            <ImageView android:id="@id/getui_big_notification_icon" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginLeft="5dp" android:scaleType="7" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="10dp" android:id="@id/getui_big_notification_date" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@*style/TextAppearance.StatusBar.EventContent" />
+            <ImageView android:id="@id/getui_big_notification_icon2" android:layout_width="22dp" android:layout_height="22dp" android:layout_marginRight="5dp" android:scaleType="7" android:layout_alignBottom="@id/getui_big_notification_icon" android:layout_alignParentRight="true" />
+            <LinearLayout android:gravity="10" android:orientation="1" android:id="@id/getui_big_notification" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="10dp" android:layout_marginRight="1dp" android:layout_toLeftOf="@id/getui_big_notification_date" android:layout_toRightOf="@id/getui_big_notification_icon">
+                <TextView android:textSize="16dp" android:id="@id/getui_big_notification_title" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" style="@*style/TextAppearance.StatusBar.EventContent.Title" />
+                <TextView android:textSize="16dp" android:layout_gravity="1" android:id="@id/getui_big_notification_title_center" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" style="@*style/TextAppearance.StatusBar.EventContent.Title" />
+                <TextView android:textSize="13dp" android:id="@id/getui_big_notification_content" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="1dp" android:maxLines="2" style="@*style/TextAppearance.StatusBar.EventContent" />
+            </LinearLayout>
+        </RelativeLayout>
+        <ImageView android:id="@id/getui_big_bigview_defaultView" android:visibility="2" android:layout_width="-1" android:layout_height="192dp" android:scaleType="6" android:layout_below="@id/getui_big_defaultView" />
+        <TextView android:textSize="13dp" android:ellipsize="3" android:id="@id/getui_big_bigtext_defaultView" android:background="0x106000d" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="63dp" android:layout_marginRight="15dp" android:maxHeight="192dp" android:layout_below="@id/getui_big_defaultView" />
+    </RelativeLayout>
+</RelativeLayout>

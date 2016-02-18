@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <com.douban.book.reader.view.BoxedWorksView_ android:id="@id/gift_box" android:layout_width="-2" android:layout_height="@dimen/boxed_gift_view_height" />
+    <TextView android:layout_gravity="1" android:id="@id/giver" android:paddingBottom="@dimen/general_subview_vertical_padding_normal" style="@style/AppWidget_Text_Content" />
+</merge>

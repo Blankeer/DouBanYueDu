@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item reader:icon="@drawable/ic_action_delete" reader:id="@id/action_delete" reader:title="@string/action_delete" reader:showAsAction="1" />
+</menu>

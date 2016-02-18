@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="44dp" android:layout_marginLeft="@dimen/general_subview_vertical_padding_normal" android:layout_marginRight="@dimen/general_subview_vertical_padding_normal">
+    <TextView android:id="@id/gallery_popup_menu_correct" style="@style/AppWidget_PopupMenuItem" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <RadioGroup android:orientation="1" android:id="@id/amount_group" android:layout_width="-1" android:layout_height="-2" />
+    <Button android:id="@id/btn_deposit" android:layout_marginTop="@dimen/general_subview_vertical_padding_large" android:layout_marginBottom="@dimen/general_subview_vertical_padding_large" android:layout_below="@id/amount_group" android:layout_centerHorizontal="true" style="@style/AppWidget_Button_Primary" />
+</merge>

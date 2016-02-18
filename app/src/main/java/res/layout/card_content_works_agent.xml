@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-1">
+    <RelativeLayout app:id="@id/user_info_layout" app:layout_width="-1" app:layout_height="40dp">
+        <com.douban.book.reader.view.UserAvatarView app:id="@id/avatar" app:layout_marginLeft="3dp" style="@style/AppWidget_ImageView_UserAvatar" />
+        <TextView app:id="@id/name" app:layout_marginLeft="@dimen/general_subview_horizontal_padding_normal" app:layout_toRightOf="@id/avatar" app:layout_alignParentTop="true" style="@style/AppWidget_Text_Title_Item" />
+        <TextView app:id="@id/publish_info" app:layout_marginLeft="@dimen/general_subview_horizontal_padding_normal" app:layout_marginTop="2dp" app:layout_toRightOf="@id/avatar" app:layout_below="@id/name" style="@style/AppWidget_Text_Link_Medium" />
+        <ImageView app:id="@id/ic_ark_author" app:layout_width="42dp" app:layout_height="11dp" app:layout_marginBottom="-4dp" app:src="@drawable/ic_ark_author_profile" app:layout_alignBottom="@id/avatar" app:autoDimInNightMode="true" />
+    </RelativeLayout>
+    <com.douban.book.reader.view.ParagraphView app:id="@id/description" app:paddingTop="@dimen/general_subview_vertical_padding_medium" app:paddingBottom="@dimen/general_subview_vertical_padding_medium" app:layout_width="-1" style="@style/AppWidget_Text_Content_Block" />
+    <ImageView app:gravity="11" app:id="@id/expand_handle" app:paddingBottom="@dimen/general_subview_vertical_padding_medium" app:visibility="2" app:layout_width="-1" app:layout_height="-1" app:src="@drawable/ic_expand" />
+</LinearLayout>

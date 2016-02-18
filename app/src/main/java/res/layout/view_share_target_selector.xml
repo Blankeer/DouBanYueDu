@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="10" android:layout_gravity="10" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentLeft="true">
+    <TextView android:layout_width="-2" android:layout_height="-2" android:text="@string/also_share_to" style="@style/AppWidget_Text_Secondary" />
+    <com.douban.book.reader.lib.view.IconCheckButton android:id="@id/share_to_douban" android:paddingLeft="0dp" android:paddingRight="0dp" android:layout_width="40dp" android:layout_height="40dp" />
+    <com.douban.book.reader.lib.view.IconCheckButton android:id="@id/share_to_weibo" android:paddingLeft="0dp" android:paddingRight="0dp" android:layout_width="40dp" android:layout_height="40dp" />
+</LinearLayout>

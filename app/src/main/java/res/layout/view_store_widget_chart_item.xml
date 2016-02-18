@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <View android:id="@id/top_divider" android:layout_width="-1" android:layout_height="3dp" />
+    <TextView android:id="@id/title" android:layout_marginTop="@dimen/general_subview_vertical_padding_large" android:layout_centerHorizontal="true" style="@style/AppWidget_Text_Title_Item" />
+    <com.douban.book.reader.view.store.item.StoreWorksItemView_ android:id="@id/works" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@dimen/general_subview_vertical_padding_medium" android:layout_below="@id/title" android:layout_centerHorizontal="true" />
+    <Button android:textSize="@dimen/general_font_size_medium" android:id="@id/btn_chart" android:layout_width="-2" android:layout_marginLeft="@dimen/general_subview_horizontal_padding_normal" android:layout_marginTop="@dimen/general_subview_vertical_padding_medium" android:layout_marginRight="@dimen/general_subview_horizontal_padding_normal" android:layout_below="@id/works" android:layout_centerHorizontal="true" style="@style/AppWidget_Button_Secondary" />
+</merge>

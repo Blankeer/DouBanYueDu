@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:layout_width="-1" app:layout_height="-1" style="@style/AppWidget_Page_NoPadding">
+    <GridView app:gravity="11" app:id="@id/shelf_grid" app:paddingTop="@dimen/general_subview_vertical_padding_medium" app:paddingBottom="@dimen/general_subview_vertical_padding_medium" app:clipToPadding="false" app:layout_width="-1" app:layout_height="-1" app:listSelector="@drawable/list_selector_transparent" app:verticalSpacing="@dimen/general_subview_vertical_padding_medium" app:columnWidth="@dimen/item_book_cover_total_width" app:numColumns="-1" />
+    <TextView app:layout_gravity="11" app:id="@id/search_empty_hint" app:visibility="2" app:layout_marginTop="50dp" app:text="@string/hint_empty_search_result" app:layout_centerHorizontal="true" style="@style/AppWidget_Text_Secondary" />
+    <RelativeLayout app:orientation="1" app:id="@id/shelf_empty_view" app:visibility="2" app:layout_width="-1" app:layout_height="-1" style="@style/AppWidget_Page_NoPadding">
+        <ImageView app:id="@id/icon_top" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="40dp" app:src="@drawable/ic_shelf_in_bubble" app:layout_centerHorizontal="true" app:autoDimInNightMode="true" />
+        <RelativeLayout app:id="@id/hint_view" app:paddingLeft="@dimen/page_horizontal_padding" app:paddingRight="@dimen/page_horizontal_padding" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@dimen/general_subview_vertical_padding_large" app:layout_below="@id/icon_top">
+            <TextView app:gravity="11" app:id="@id/hint" app:paddingLeft="@dimen/general_subview_horizontal_padding_large" app:paddingRight="@dimen/general_subview_horizontal_padding_large" app:text="@string/hint_empty_shelf" app:layout_centerHorizontal="true" style="@style/AppWidget_Text_Secondary" />
+            <View app:layout_toLeftOf="@id/hint" app:layout_centerVertical="true" style="@style/AppWidget_Divider_Horizontal" />
+            <View app:layout_toRightOf="@id/hint" app:layout_centerVertical="true" style="@style/AppWidget_Divider_Horizontal" />
+        </RelativeLayout>
+        <Button app:id="@id/btn_to_store" app:layout_marginTop="@dimen/general_subview_vertical_padding_huge" app:layout_below="@id/hint_view" app:layout_centerHorizontal="true" style="@style/AppWidget_Button_Secondary" />
+        <Button app:id="@id/btn_to_user_own" app:layout_marginTop="@dimen/general_subview_vertical_padding_medium" app:layout_below="@id/btn_to_store" app:layout_centerHorizontal="true" style="@style/AppWidget_Button_Secondary" />
+    </RelativeLayout>
+</RelativeLayout>

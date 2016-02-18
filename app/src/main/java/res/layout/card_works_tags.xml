@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.douban.book.reader.lib.view.FlowLayout android:id="@id/tags_layout" style="@style/AppWidget_FlowLayout" />

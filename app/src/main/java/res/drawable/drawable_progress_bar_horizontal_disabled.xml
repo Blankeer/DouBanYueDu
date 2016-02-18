@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item android:id="0x1020000">
+        <shape android:shape="0">
+            <size android:height="@dimen/height_progress_bar_horizontal" />
+            <solid android:color="@color/bg_progress_bar" />
+            <corners android:topLeftRadius="@dimen/radius_corners_progress_bar_horizontal" android:topRightRadius="@dimen/radius_corners_progress_bar_horizontal" android:bottomLeftRadius="@dimen/radius_corners_progress_bar_horizontal" android:bottomRightRadius="@dimen/radius_corners_progress_bar_horizontal" />
+        </shape>
+    </item>
+    <item android:id="0x102000d">
+        <clip>
+            <shape android:shape="0">
+                <size android:height="@dimen/height_progress_bar_horizontal" />
+                <solid android:color="@color/red" />
+                <corners android:topLeftRadius="@dimen/radius_corners_progress_bar_horizontal" android:topRightRadius="@dimen/radius_corners_progress_bar_horizontal" android:bottomLeftRadius="@dimen/radius_corners_progress_bar_horizontal" android:bottomRightRadius="@dimen/radius_corners_progress_bar_horizontal" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

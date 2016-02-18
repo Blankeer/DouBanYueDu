@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1">
+    <ScrollView android:paddingBottom="@dimen/general_subview_vertical_padding_large" android:focusable="true" android:focusableInTouchMode="true" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1" android:fillViewport="true">
+        <LinearLayout android:gravity="1" android:orientation="1" android:layout_width="-1" android:layout_height="-2" style="@style/AppWidget_Page">
+            <RelativeLayout android:id="@id/layout_avatar" android:layout_width="-1" android:layout_height="-2">
+                <com.douban.book.reader.view.UserAvatarView android:id="@id/user_avatar" android:layout_marginTop="@dimen/general_subview_vertical_padding_large" android:layout_centerHorizontal="true" style="@style/AppWidget_ImageView_UserAvatar_Large" />
+                <TextView android:gravity="10" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@dimen/page_horizontal_padding" android:text="@string/text_avatar" android:layout_alignTop="@id/user_avatar" android:layout_alignBottom="@id/user_avatar" android:layout_alignParentLeft="true" style="@style/AppWidget_Text_Secondary" />
+            </RelativeLayout>
+            <EditText android:id="@id/edt_nickname" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/general_subview_vertical_padding_large" android:hint="@string/hint_nickname" />
+            <Button android:id="@id/btn_confirm" android:layout_marginTop="@dimen/general_subview_vertical_padding_large" android:text="@string/dialog_button_ok" style="@style/AppWidget_Button_Primary_Large" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

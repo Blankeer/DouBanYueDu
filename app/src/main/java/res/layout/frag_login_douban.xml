@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout reader:layout_width="-1" reader:layout_height="-1">
+    <ScrollView reader:focusable="true" reader:focusableInTouchMode="true" reader:layout_width="-1" reader:layout_height="-1" reader:fillViewport="true" reader:backgroundColorArray="@array/page_bg_color">
+        <LinearLayout reader:gravity="1" reader:orientation="1" reader:paddingLeft="@dimen/page_horizontal_padding" reader:paddingRight="@dimen/page_horizontal_padding" reader:layout_width="-1" reader:layout_height="-2">
+            <EditText reader:id="@id/username" reader:nextFocusDown="@id/password" reader:layout_width="-1" reader:layout_height="-2" reader:layout_marginTop="@dimen/general_subview_vertical_padding_large" reader:hint="@string/hint_username" reader:inputType="21" reader:imeOptions="5" />
+            <com.douban.book.reader.lib.view.PasswordView reader:id="@id/password" reader:layout_width="-1" reader:layout_height="-2" reader:layout_marginTop="@dimen/general_subview_vertical_padding_normal" reader:hint="@string/hint_password" reader:inputType="81" reader:imeOptions="6" />
+            <Button reader:id="@id/btn_login" reader:layout_marginTop="@dimen/general_subview_vertical_padding_large" reader:text="@string/btn_login" style="@style/AppWidget_Button_Primary_Large" />
+            <TextView reader:textSize="@dimen/general_font_size_normal" reader:id="@id/reset_password" reader:paddingTop="@dimen/general_subview_vertical_padding_normal" reader:paddingBottom="@dimen/general_subview_vertical_padding_normal" reader:layout_marginTop="@dimen/general_subview_vertical_padding_medium" style="@style/AppWidget_Text_Secondary" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

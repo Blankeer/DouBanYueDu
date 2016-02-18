@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <com.douban.book.reader.view.WorksCoverView android:id="@id/cover" style="@style/AppWidget_Cover" />
+    <TextView android:textSize="@dimen/general_font_size_medium" android:gravity="3" android:id="@id/title" android:paddingLeft="@dimen/padding_around_cover" android:paddingRight="@dimen/padding_around_cover" android:layout_height="@dimen/height_item_store_works" android:layout_marginTop="@dimen/general_subview_vertical_padding_small" android:maxLines="2" android:layout_below="@id/cover" android:layout_alignLeft="@id/cover" android:layout_alignRight="@id/cover" style="@style/AppWidget_Text_Content" />
+    <TextView android:textSize="11dp" android:gravity="3" android:id="@id/author" android:paddingLeft="@dimen/padding_around_cover" android:paddingRight="@dimen/padding_around_cover" android:singleLine="true" android:layout_below="@id/title" android:layout_alignLeft="@id/cover" android:layout_alignRight="@id/cover" style="@style/AppWidget_Text_Secondary" />
+</merge>

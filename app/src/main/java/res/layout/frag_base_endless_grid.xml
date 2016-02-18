@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root" style="@style/AppWidget_Page_NoPadding">
+    <com.douban.book.reader.lib.view.EndlessGridView android:id="@id/list" android:columnWidth="@dimen/boxed_gift_view_item_width" android:numColumns="-1" style="@style/AppWidget_List" />
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item reader:icon="@drawable/ic_action_reply" reader:id="@id/action_create" reader:title="@string/action_new_comment" reader:showAsAction="2" />
+    <item reader:icon="@drawable/ic_action_share" reader:id="@id/action_share" reader:title="@string/action_share" reader:showAsAction="1" />
+    <item reader:icon="@drawable/ic_action_edit" reader:id="@id/action_edit" reader:title="@string/action_edit" reader:showAsAction="1" />
+    <item reader:icon="@drawable/ic_action_delete" reader:id="@id/action_delete" reader:title="@string/action_delete" reader:showAsAction="1" />
+</menu>

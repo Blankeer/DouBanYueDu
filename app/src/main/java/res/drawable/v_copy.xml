@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector app:height="100dp" app:width="100dp" app:viewportWidth="100.0" app:viewportHeight="100.0" app:vc_viewportWidth="100.0" app:vc_viewportHeight="100.0">
+    <path app:fillColor="#ffffff" app:pathData="M85.2,7.6H29.4c-2.5,0-4.8,2.5-4.8,4.8V73c0,2.4,2.4,4.8,4.8,4.8h55.8c2.5,0,4.8-2.5,4.8-4.8V12.4c0-2.4-2.4-4.8-4.8-4.8zm-2.5,63H31.8V14.8h50.9v55.8z" app:vc_pathData="M85.2,7.6H29.4c-2.5,0-4.8,2.5-4.8,4.8V73c0,2.4,2.4,4.8,4.8,4.8h55.8c2.5,0,4.8-2.5,4.8-4.8V12.4c0-2.4-2.4-4.8-4.8-4.8zm-2.5,63H31.8V14.8h50.9v55.8z" app:vc_fillColor="#ffffff" />
+    <path app:fillColor="#ffffff" app:pathData="M63.3,65.8V43.9c0-2.4-2.4-4.8-4.8-4.8H36.7v7.3h19.4v19.4h7.2zM56.1,82.7v2.4H17.3V46.4h2.4v-7.3h-4.8c-2.5,0-4.8,2.5-4.8,4.8v43.6c0,2.4,2.4,4.8,4.8,4.8h43.6c2.5,0,4.8-2.5,4.8-4.8v-4.8h-7.2z" app:fillAlpha="0.5" app:vc_pathData="M63.3,65.8V43.9c0-2.4-2.4-4.8-4.8-4.8H36.7v7.3h19.4v19.4h7.2zM56.1,82.7v2.4H17.3V46.4h2.4v-7.3h-4.8c-2.5,0-4.8,2.5-4.8,4.8v43.6c0,2.4,2.4,4.8,4.8,4.8h43.6c2.5,0,4.8-2.5,4.8-4.8v-4.8h-7.2z" app:vc_fillColor="#ffffff" app:vc_fillAlpha="0.5" />
+</vector>

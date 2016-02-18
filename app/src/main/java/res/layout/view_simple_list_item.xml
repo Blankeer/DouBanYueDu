@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="@style/AppWidget_Text_Content" android:gravity="10" android:minHeight="50dp" style="@style/AppWidget_List_Item" />

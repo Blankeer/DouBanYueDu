@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item>
+        <shape>
+            <size android:height="@dimen/height_horizontal_divider" />
+            <solid android:color="@color/day_divider" />
+        </shape>
+    </item>
+    <item android:top="@dimen/height_horizontal_divider_accent">
+        <shape>
+            <solid android:color="@color/day_divider_shadow" />
+        </shape>
+    </item>
+</layer-list>

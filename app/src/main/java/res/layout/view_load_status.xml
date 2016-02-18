@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout reader:gravity="11" reader:orientation="1" style="@style/AppWidget_Page">
+    <TextView reader:textSize="15dp" reader:id="@id/text_status" reader:layout_width="-2" reader:layout_height="-2" reader:layout_marginBottom="@dimen/general_subview_vertical_padding_medium" reader:textColorArray="@array/green" />
+    <ProgressBar reader:id="@id/download_progress" reader:visibility="1" style="@style/AppWidget_ProgressBar_Horizontal" />
+    <TextView reader:gravity="1" reader:id="@id/guide_for_shelf" reader:visibility="1" reader:layout_width="-1" reader:layout_height="-2" reader:layout_marginTop="@dimen/general_subview_vertical_padding_huge" reader:text="@string/hint_empty_shelf" style="@style/AppWidget_Text_Secondary" />
+    <Button reader:id="@id/btn_retry" reader:visibility="1" reader:layout_marginTop="@dimen/general_subview_vertical_padding_huge" reader:text="@string/reader_btn_retry" style="@style/AppWidget_Button_Secondary" />
+    <Button reader:id="@id/btn_report" reader:visibility="1" reader:layout_marginTop="@dimen/general_subview_vertical_padding_normal" reader:text="@string/btn_report_to_douban" style="@style/AppWidget_Button_Secondary" />
+</LinearLayout>

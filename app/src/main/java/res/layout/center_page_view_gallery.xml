@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <RelativeLayout app:id="@id/gallery_command_panel" app:layout_width="-1" app:layout_height="40dp" app:layout_alignParentBottom="true">
+        <ImageView app:id="@id/gallery_center_text_expand" app:layout_width="-2" app:layout_height="-2" app:layout_alignParentLeft="true" app:layout_centerVertical="true" app:autoDimInNightMode="true" app:srcArray="@array/btn_gallery_center_text" />
+        <ImageView app:id="@id/gallery_more" app:layout_width="-2" app:layout_height="-2" app:layout_alignParentRight="true" app:layout_centerVertical="true" app:autoDimInNightMode="true" />
+        <ImageView app:id="@id/gallery_share" app:layout_width="-2" app:layout_height="-2" app:layout_toLeftOf="@id/gallery_more" app:layout_centerVertical="true" app:autoDimInNightMode="true" />
+    </RelativeLayout>
+    <RelativeLayout app:id="@id/gallery_legend_panel" app:visibility="2" app:layout_width="-1" app:layout_height="-2" app:layout_alignParentBottom="true">
+        <ImageView app:id="@id/gallery_center_text_collapse" app:layout_width="-2" app:layout_height="-2" app:layout_above="@id/gallery_legend_wrapper" app:layout_alignParentLeft="true" app:srcArray="@array/btn_gallery_center_textclose" />
+        <com.douban.book.reader.view.FlexibleScrollView app:id="@id/gallery_legend_wrapper" app:layout_width="-1" app:layout_height="-2" app:layout_alignParentBottom="true" app:backgroundColorArray="@array/gallery_center_legend_bg" style="@style/Reader_Gallery_LegendWrapper">
+            <com.douban.book.reader.view.ParagraphView app:id="@id/gallery_legend" app:layout_width="-1" app:layout_height="-2" app:textColorArray="@array/gallery_center_legend_text_color" style="@style/Reader_Gallery_Legend" />
+        </com.douban.book.reader.view.FlexibleScrollView>
+    </RelativeLayout>
+</merge>

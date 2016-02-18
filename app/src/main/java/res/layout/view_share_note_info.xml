@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <TextView android:id="@id/note_content" android:layout_marginTop="@dimen/general_subview_vertical_padding_small" android:maxLines="3" style="@style/AppWidget_Text_Secondary_Block" />
+</merge>

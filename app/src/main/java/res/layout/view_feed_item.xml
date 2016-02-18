@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <com.douban.book.reader.view.WorksCoverView android:id="@id/cover" android:layout_alignParentRight="true" style="@style/AppWidget_Cover_Small" />
+    <TextView android:id="@id/title" android:layout_marginRight="@dimen/general_subview_horizontal_padding_large" android:layout_toLeftOf="@id/cover" android:layout_alignParentLeft="true" style="@style/AppWidget_Text_Title_Item" />
+    <TextView android:id="@id/content" android:layout_marginTop="@dimen/general_subview_vertical_padding_normal" android:layout_marginRight="@dimen/general_subview_horizontal_padding_large" android:layout_marginBottom="@dimen/general_subview_vertical_padding_normal" android:maxLines="3" android:layout_toLeftOf="@id/cover" android:layout_below="@id/title" android:layout_alignParentLeft="true" style="@style/AppWidget_Text_Secondary" />
+    <TextView android:id="@id/publish_info" android:layout_marginRight="@dimen/general_subview_horizontal_padding_large" android:layout_toLeftOf="@id/cover" android:layout_below="@id/content" android:layout_alignParentLeft="true" style="@style/AppWidget_Text_Secondary" />
+</merge>

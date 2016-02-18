@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:gravity="10" app:layout_width="-1" app:layout_height="-2">
+    <TextView app:textSize="@dimen/general_font_size_normal" app:textColor="#dddddd" app:id="@id/text_toast" app:paddingLeft="@dimen/general_subview_horizontal_padding_medium" app:paddingTop="@dimen/general_subview_vertical_padding_normal" app:paddingRight="@dimen/general_subview_horizontal_padding_medium" app:paddingBottom="@dimen/general_subview_vertical_padding_normal" app:layout_width="0dp" app:layout_height="-2" app:layout_weight="1.0" />
+    <View app:id="@id/divider" app:visibility="2" app:layout_marginTop="10dp" app:layout_marginBottom="10dp" style="@style/AppWidget_Divider_Vertical_InvertColor" />
+    <TextView app:id="@id/btn_close" app:paddingLeft="@dimen/general_subview_horizontal_padding_medium" app:paddingTop="@dimen/general_subview_vertical_padding_normal" app:paddingRight="@dimen/general_subview_horizontal_padding_medium" app:paddingBottom="@dimen/general_subview_vertical_padding_normal" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:drawableLeft="@drawable/ic_action_cancel" app:colorizeDrawableEnabled="true" app:textColorArray="@array/invert_text_color" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="@dimen/tool_bar_height" app:backgroundColorArray="@array/page_bg_color">
+    <View style="@style/AppWidget_Divider_Horizontal" />
+    <LinearLayout app:orientation="0" app:layout_width="-1" app:layout_height="@dimen/tool_bar_height">
+        <FrameLayout app:padding="0dp" app:layout_width="@dimen/tool_bar_button_width" app:layout_height="-1" style="@style/AppWidget_Text_Clickable">
+            <com.douban.book.reader.view.WorksCoverView app:layout_gravity="11" app:id="@id/cover" app:padding="4dp" app:layout_width="36dp" app:layout_height="36dp" />
+        </FrameLayout>
+        <View style="@style/AppWidget_Divider_Vertical" />
+        <TextView app:id="@id/btn_action" app:layout_width="0dp" app:layout_height="-1" app:layout_weight="1.0" style="@style/AppWidget_Text_Clickable" />
+        <View style="@style/AppWidget_Divider_Vertical" />
+        <TextView app:id="@id/btn_share" app:layout_width="@dimen/tool_bar_button_width" app:layout_height="-1" style="@style/AppWidget_Text_Clickable" />
+    </LinearLayout>
+</LinearLayout>

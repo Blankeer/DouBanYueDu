@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-1">
+    <com.douban.book.reader.view.ReviewSummaryView_ app:id="@id/review_summary" app:paddingLeft="@dimen/page_horizontal_padding" app:paddingTop="@dimen/general_subview_vertical_padding_medium" app:paddingRight="@dimen/page_horizontal_padding" app:paddingBottom="@dimen/general_subview_vertical_padding_medium" app:layout_width="-1" app:layout_height="-2" app:backgroundColorArray="@array/page_highlight_bg_color" />
+    <View app:id="@id/divider_above_vote" app:visibility="2" style="@style/AppWidget_Divider_Horizontal" />
+    <com.douban.book.reader.view.VoteView_ app:id="@id/vote_view" app:visibility="2" app:layout_width="-1" app:layout_height="-2" app:backgroundColorArray="@array/page_highlight_bg_color" />
+    <View style="@style/AppWidget_Divider_Horizontal" />
+</LinearLayout>

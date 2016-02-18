@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <TextView android:textSize="@dimen/general_font_size_tiny" android:id="@id/data_uuid" android:visibility="2" android:layout_alignParentTop="true" style="@style/AppWidget_Text_Secondary" />
+    <com.douban.book.reader.view.ParagraphView android:ellipsize="3" android:id="@id/abstract_text" android:layout_width="-1" android:layout_marginTop="@dimen/general_subview_vertical_padding_medium" android:maxLines="3" android:layout_below="@id/data_uuid" android:layout_alignWithParentIfMissing="true" style="@style/AppWidget_Text_Content_Block" />
+    <com.douban.book.reader.view.ParagraphView android:ellipsize="3" android:id="@id/quoted_text" android:layout_width="-1" android:layout_marginTop="@dimen/general_subview_vertical_padding_normal" android:layout_marginBottom="@dimen/general_subview_vertical_padding_normal" android:maxLines="3" android:layout_below="@id/abstract_text" style="@style/AppWidget_Text_Secondary_Block" />
+    <TextView android:gravity="10" android:id="@id/create_date" android:layout_below="@id/quoted_text" style="@style/AppWidget_Text_Secondary" />
+    <TextView android:id="@id/note_extra_info" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_alignBaseline="@id/create_date" android:layout_alignParentRight="true" style="@style/AppWidget_Text_Secondary" />
+</merge>

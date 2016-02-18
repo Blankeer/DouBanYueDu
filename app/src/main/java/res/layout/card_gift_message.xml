@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+    <com.douban.book.reader.view.UserAvatarView android:id="@id/user_avatar" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/AppWidget_ImageView_UserAvatar_Small" />
+    <com.douban.book.reader.view.GiftMessageView_ android:id="@id/gift_message" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/general_subview_horizontal_padding_medium" android:layout_marginBottom="@dimen/general_subview_horizontal_padding_medium" android:layout_below="@id/user_avatar" android:layout_centerHorizontal="true" />
+</RelativeLayout>

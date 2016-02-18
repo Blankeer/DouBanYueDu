@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <LinearLayout android:orientation="0" android:id="@id/top_view" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:id="@id/title" android:layout_width="0dp" android:layout_marginRight="@dimen/general_subview_horizontal_padding_large" android:layout_weight="1.0" style="@style/AppWidget_Text_Title_Item" />
+        <TextView android:gravity="5" android:id="@id/not_purchased_sign" android:text="@string/not_purchased" style="@style/AppWidget_Text_Secondary" />
+        <ImageView android:id="@id/ic_last_read" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ic_column_last_read" />
+    </LinearLayout>
+    <TextView android:id="@id/abstract_text" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/general_subview_vertical_padding_normal" android:maxLines="3" android:layout_below="@id/top_view" style="@style/AppWidget_Text_Secondary_Block" />
+    <TextView android:id="@id/publish_date" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@dimen/general_subview_vertical_padding_normal" android:layout_below="@id/abstract_text" style="@style/AppWidget_Text_Secondary" />
+</merge>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <ImageView app:id="@id/gallery_more" app:layout_width="-2" app:layout_height="-2" app:layout_alignParentRight="true" app:autoDimInNightMode="true" />
+    <ImageView app:id="@id/gallery_share" app:layout_width="-2" app:layout_height="-2" app:layout_toLeftOf="@id/gallery_more" app:autoDimInNightMode="true" />
+    <ScrollView app:id="@id/gallery_legend_wrapper" app:paddingTop="0dp" app:layout_width="-1" app:layout_height="-2" app:layout_below="@id/gallery_share" style="@style/Reader_Gallery_LegendWrapper">
+        <com.douban.book.reader.view.ParagraphView app:id="@id/gallery_legend" app:paddingTop="5dp" app:layout_width="-1" app:layout_height="-2" style="@style/Reader_Gallery_Legend" />
+    </ScrollView>
+</merge>

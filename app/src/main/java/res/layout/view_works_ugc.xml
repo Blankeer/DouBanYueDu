@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:id="@id/root" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:gravity="10" android:orientation="1" android:id="@id/note_layout" android:paddingRight="@dimen/general_subview_horizontal_padding_normal" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/general_font_size_medium" android:id="@id/note" android:text="@string/title_note" style="@style/AppWidget_Text_Content" />
+        <View android:layout_width="@dimen/general_subview_horizontal_padding_small" android:layout_height="@dimen/general_subview_vertical_padding_small" />
+        <TextView android:textStyle="1" android:id="@id/note_count" style="@style/AppWidget_Text_Link_Medium" />
+    </LinearLayout>
+    <View style="@style/AppWidget_Divider_Vertical" />
+    <LinearLayout android:gravity="10" android:orientation="1" android:id="@id/rate_layout" android:paddingLeft="@dimen/general_subview_horizontal_padding_normal" android:paddingRight="@dimen/general_subview_horizontal_padding_normal" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="2.0">
+        <TextView android:textSize="@dimen/general_font_size_medium" android:id="@id/title_rate" android:text="@string/title_user_rate" style="@style/AppWidget_Text_Content" />
+        <View android:layout_width="@dimen/general_subview_horizontal_padding_small" android:layout_height="@dimen/general_subview_vertical_padding_small" />
+        <RatingBar android:id="@id/works_rating" style="@style/AppWidget_RatingBar_Indicator" />
+    </LinearLayout>
+    <View style="@style/AppWidget_Divider_Vertical" />
+    <com.douban.book.reader.view.WorksStatusView android:id="@id/works_status" android:layout_width="@dimen/width_drawable_btn_normal" android:layout_height="-2" />
+</LinearLayout>

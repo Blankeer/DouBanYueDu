@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:background="#000000" app:layout_width="-1" app:layout_height="-1">
+    <com.douban.book.reader.view.TouchImageView app:id="@id/image_illus" app:layout_width="-1" app:layout_height="-1" app:autoDimInNightMode="true" />
+    <Button app:textSize="12dp" app:textColor="#000000" app:gravity="11" app:id="@id/text_legend_hide" app:background="@drawable/btn_notecontrol" app:layout_width="-2" app:layout_height="-2" app:layout_alignParentTop="true" app:layout_alignParentRight="true" app:textColorArray="@dx/a" />
+    <ScrollView app:id="@id/text_legend_scroller" app:background="#b2000000" app:layout_width="-2" app:layout_height="-2" app:layout_alignParentLeft="true" app:layout_alignParentRight="true" app:layout_alignParentBottom="true">
+        <RelativeLayout app:layout_width="-2" app:layout_height="-2"
+            <RelativeLayout app:id="@id/text_legend_switch_bg" app:background="#33ffffff" app:layout_width="-2" app:layout_height="-2" app:layout_alignParentLeft="true" app:layout_alignParentTop="true" app:layout_alignParentRight="true">
+                <TextView app:textSize="12dp" app:textColor="#dddddd" app:gravity="11" app:id="@id/text_legend_switch" app:paddingTop="5dp" app:paddingBottom="5dp" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/icon_pic_text" app:drawablePadding="12dp" app:layout_centerInParent="true" app:textColorArray="@dx/a" />
+            </RelativeLayout>
+            <com.douban.book.reader.view.ParagraphView app:textSize="14dp" app:textColor="#ffffff" app:gravity="11" app:id="@id/text_legend" app:paddingLeft="18dp" app:paddingTop="5dp" app:paddingRight="18dp" app:paddingBottom="5dp" app:layout_width="-2" app:layout_height="-2" app:layout_below="@id/text_legend_switch_bg" app:layout_alignParentLeft="true" app:layout_alignParentRight="true" app:layout_alignParentBottom="true" app:lineSpacingMultiplier="1.25" app:textColorArray="@dx/a" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <TextView reader:id="@id/title" reader:paddingLeft="@dimen/page_horizontal_padding" reader:paddingRight="@dimen/page_horizontal_padding" reader:layout_width="-1" reader:layout_height="-2" reader:backgroundColorArray="@array/page_highlight_bg_color" style="@style/AppWidget_Text_Title_Column" />
+    <View reader:id="@id/divider" reader:layout_below="@id/title" style="@style/AppWidget_Divider_Horizontal" />
+</merge>

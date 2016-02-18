@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:paddingLeft="@dimen/general_subview_horizontal_padding_huge" app:paddingTop="@dimen/general_subview_horizontal_padding_huge" app:paddingRight="@dimen/general_subview_horizontal_padding_huge" app:layout_width="-1" app:layout_height="-2" app:backgroundColorArray="@array/page_highlight_bg_color">
+    <TextView app:textSize="24dp" app:id="@id/account_left" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@dimen/general_subview_vertical_padding_large" app:textColorArray="@array/red" />
+    <TextView app:text="@string/hint_account_left" app:layout_alignBaseline="@id/account_left" app:layout_alignParentRight="true" style="@style/AppWidget_Text_Secondary" />
+    <View app:id="@id/account_left_divider" app:layout_marginTop="@dimen/general_subview_vertical_padding_normal" app:layout_below="@id/account_left" style="@style/AppWidget_Divider_Horizontal" />
+    <TextView app:textSize="24dp" app:textStyle="1" app:id="@id/credit_left" app:layout_marginTop="@dimen/general_subview_horizontal_padding_normal" app:layout_below="@id/account_left_divider" style="@style/AppWidget_Text_Secondary" />
+    <TextView app:text="@string/hint_credit_left" app:layout_alignBaseline="@id/credit_left" app:layout_alignParentRight="true" style="@style/AppWidget_Text_Secondary" />
+    <Button app:id="@id/btn_deposit" app:layout_width="-1" app:layout_marginTop="@dimen/general_subview_vertical_padding_huge" app:layout_below="@id/credit_left" app:layout_centerHorizontal="true" style="@style/AppWidget_Button_Primary" />
+    <Button app:id="@id/btn_redeem" app:layout_width="-1" app:layout_marginTop="@dimen/general_subview_vertical_padding_medium" app:layout_below="@id/btn_deposit" app:layout_centerHorizontal="true" style="@style/AppWidget_Button_Secondary" />
+    <TextView app:id="@id/text_feedback_entry" app:padding="@dimen/general_subview_vertical_padding_large" app:layout_width="-2" app:layout_height="-2" app:layout_below="@id/btn_redeem" app:layout_centerHorizontal="true" style="@style/AppWidget_Text_Secondary" />
+</RelativeLayout>

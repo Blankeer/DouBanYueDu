@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout reader:gravity="10" reader:orientation="0" reader:paddingLeft="@dimen/page_horizontal_padding" reader:paddingTop="@dimen/general_subview_vertical_padding_small" reader:paddingBottom="@dimen/general_subview_vertical_padding_small" reader:layout_width="-1" reader:layout_height="-2" reader:minHeight="50dp" reader:backgroundColorArray="@array/page_highlight_bg_color">
+    <TextView reader:textSize="@dimen/general_font_size_small" reader:layout_gravity="10" reader:id="@id/on_sale_time" reader:paddingRight="@dimen/general_subview_horizontal_padding_small" reader:layout_width="0dp" reader:layout_height="-2" reader:layout_weight="1.0" />
+    <View reader:id="@id/divider" style="@style/AppWidget_Divider_Vertical" />
+    <TextView reader:textSize="@dimen/general_font_size_tiny" reader:gravity="11" reader:layout_gravity="10" reader:id="@id/btn_get_notified" reader:layout_width="@dimen/width_drawable_btn_normal" reader:layout_height="-2" reader:text="@string/btn_purchase" reader:colorizeDrawableEnabled="true" reader:textColorArray="@array/blue" />
+</LinearLayout>

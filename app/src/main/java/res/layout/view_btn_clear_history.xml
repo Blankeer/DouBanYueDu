@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-2">
+    <TextView android:layout_gravity="1" android:id="@id/btn_clear" android:layout_marginTop="@dimen/general_subview_vertical_padding_large" android:layout_marginBottom="@dimen/general_subview_vertical_padding_large" android:text="@string/btn_clear_history" style="@style/AppWidget_Button_Primary" />
+</FrameLayout>

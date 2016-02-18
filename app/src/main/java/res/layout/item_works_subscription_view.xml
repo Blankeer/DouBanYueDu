@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/AppWidget_List_Item">
+    <com.douban.book.reader.view.WorksCoverView android:id="@id/cover" android:layout_centerVertical="true" style="@style/AppWidget_Cover_Tiny" />
+    <TextView android:id="@id/status" android:visibility="2" android:layout_marginTop="@dimen/general_subview_vertical_padding_small" android:layout_alignTop="@id/cover" android:layout_alignParentRight="true" style="@style/AppWidget_Text_Secondary" />
+    <TextView android:id="@id/title" android:layout_marginLeft="@dimen/general_subview_horizontal_padding_normal" android:layout_toLeftOf="@id/status" android:layout_toRightOf="@id/cover" android:layout_alignTop="@id/cover" style="@style/AppWidget_Text_Title_Item" />
+    <TextView android:id="@id/author" android:layout_marginLeft="@dimen/general_subview_horizontal_padding_normal" android:layout_marginTop="@dimen/general_subview_vertical_padding_small" android:layout_toRightOf="@id/cover" android:layout_below="@id/title" style="@style/AppWidget_Text_Secondary" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root" android:layout_width="-1" android:layout_height="-2" style="@style/AppWidget_Page_Highlight_NoPadding">
+    <View style="@style/AppWidget_Divider_Horizontal" />
+    <TextView android:id="@id/title" android:paddingLeft="@dimen/page_horizontal_padding" android:paddingRight="@dimen/page_horizontal_padding" android:paddingBottom="0dp" android:text="@string/title_my_review" style="@style/AppWidget_Text_Title_Column" />
+    <RatingBar android:id="@id/rating_bar" android:paddingTop="@dimen/general_subview_vertical_padding_normal" android:paddingBottom="@dimen/general_subview_vertical_padding_normal" android:layout_marginRight="@dimen/general_subview_horizontal_padding_normal" android:isIndicator="true" android:layout_alignTop="@id/title" android:layout_alignParentRight="true" style="@style/AppWidget_RatingBar_Edit" />
+    <RelativeLayout android:id="@id/review_layout" android:layout_width="-1" android:layout_height="-1" android:layout_below="@id/title">
+        <com.douban.book.reader.view.ReviewItemView_ android:id="@id/review_item" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true" />
+        <ProgressBar android:id="@id/progress" android:visibility="2" style="@style/AppWidget_ProgressBar" />
+    </RelativeLayout>
+    <View android:layout_alignParentBottom="true" style="@style/AppWidget_Divider_Horizontal" />
+</RelativeLayout>

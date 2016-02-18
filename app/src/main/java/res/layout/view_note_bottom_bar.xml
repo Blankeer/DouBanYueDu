@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-2">
+    <View style="@style/AppWidget_Divider_Horizontal" />
+    <LinearLayout app:orientation="0" app:layout_width="-1" app:layout_height="-2">
+        <TextView app:id="@id/note_prev" app:layout_weight="1.0" style="@style/AppWidget_Text_Clickable" />
+        <View style="@style/AppWidget_Divider_Vertical" />
+        <TextView app:id="@id/note_next" app:layout_weight="1.0" style="@style/AppWidget_Text_Clickable" />
+    </LinearLayout>
+</LinearLayout>

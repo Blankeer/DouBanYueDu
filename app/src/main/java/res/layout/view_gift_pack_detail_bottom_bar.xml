@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <TextView app:textSize="@dimen/general_font_size_small" app:gravity="11" app:id="@id/tips" app:paddingTop="@dimen/general_subview_vertical_padding_small" app:paddingBottom="@dimen/general_subview_vertical_padding_small" app:visibility="2" app:layout_width="-1" app:layout_height="-2" app:textColorArray="@array/invert_text_color" />
+    <TextView app:textSize="@dimen/general_font_size_large" app:gravity="11" app:id="@id/btn_action" app:paddingTop="@dimen/general_subview_vertical_padding_medium" app:paddingBottom="@dimen/general_subview_vertical_padding_medium" app:visibility="2" app:layout_width="-1" app:layout_height="-2" app:backgroundColorArray="@array/red" app:textColorArray="@array/invert_text_color" />
+</merge>

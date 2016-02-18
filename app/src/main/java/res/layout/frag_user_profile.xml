@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout app:layout_width="-1" app:layout_height="-1">
+    <ScrollView app:paddingBottom="@dimen/general_subview_vertical_padding_large" app:focusable="true" app:focusableInTouchMode="true" app:clipToPadding="false" app:layout_width="-1" app:layout_height="-1" app:fillViewport="true" app:backgroundColorArray="@array/page_bg_color">
+        <LinearLayout app:gravity="1" app:orientation="1" app:layout_width="-1" app:layout_height="-2" style="@style/AppWidget_Page_NoPadding">
+            <View style="@style/AppWidget_Divider_Horizontal" />
+            <RelativeLayout app:layout_width="-1" app:layout_height="-2">
+                <TextView app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@dimen/page_horizontal_padding" app:text="@string/text_avatar" app:layout_alignParentLeft="true" app:layout_centerVertical="true" style="@style/AppWidget_Text_Secondary" />
+                <com.douban.book.reader.view.UserAvatarView app:id="@id/user_avatar" app:layout_marginTop="@dimen/general_subview_vertical_padding_large" app:layout_marginBottom="@dimen/general_subview_vertical_padding_large" app:layout_centerHorizontal="true" style="@style/AppWidget_ImageView_UserAvatar_Large" />
+                <TextView app:id="@id/btn_edit_avatar" app:paddingLeft="@dimen/general_subview_horizontal_padding_normal" app:paddingTop="@dimen/general_subview_vertical_padding_large" app:paddingBottom="@dimen/general_subview_vertical_padding_large" app:layout_width="-2" app:layout_height="-2" app:layout_alignParentRight="true" app:layout_centerVertical="true" app:textColorArray="@array/light_blue" />
+            </RelativeLayout>
+            <View style="@style/AppWidget_Divider_Horizontal" />
+            <RelativeLayout app:layout_width="-1" app:layout_height="-2">
+                <TextView app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@dimen/page_horizontal_padding" app:text="@string/text_nickname" app:layout_alignParentLeft="true" app:layout_centerVertical="true" style="@style/AppWidget_Text_Secondary" />
+                <TextView app:textStyle="1" app:id="@id/user_name" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@dimen/general_subview_vertical_padding_large" app:layout_marginBottom="@dimen/general_subview_vertical_padding_large" app:layout_centerHorizontal="true" />
+                <TextView app:id="@id/btn_edit_nickname" app:paddingLeft="@dimen/general_subview_horizontal_padding_normal" app:paddingTop="@dimen/general_subview_vertical_padding_large" app:paddingBottom="@dimen/general_subview_vertical_padding_large" app:layout_width="-2" app:layout_height="-2" app:layout_alignParentRight="true" app:layout_centerVertical="true" app:textColorArray="@array/light_blue" />
+            </RelativeLayout>
+            <View style="@style/AppWidget_Divider_Horizontal" />
+            <Button app:id="@id/btn_logout" app:layout_marginTop="@dimen/general_subview_vertical_padding_large" app:text="@string/btn_logout" style="@style/AppWidget_Button_Secondary" />
+            <View app:layout_width="-1" app:layout_height="0dp" app:layout_weight="1.0" />
+            <com.douban.book.reader.view.DoubanLogoView app:layout_width="48dp" app:layout_height="48dp" app:layout_marginTop="@dimen/general_subview_vertical_padding_large" />
+            <TextView app:gravity="1" app:id="@id/text_agreement" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@dimen/general_subview_vertical_padding_large" style="@style/AppWidget_Text_Secondary_Block" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

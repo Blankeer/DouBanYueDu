@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout reader:layout_gravity="10" reader:orientation="0" reader:paddingLeft="@dimen/page_horizontal_padding" reader:paddingTop="@dimen/general_subview_vertical_padding_small" reader:paddingBottom="@dimen/general_subview_vertical_padding_small" reader:layout_width="-1" reader:layout_height="-2" reader:minHeight="50dp" reader:backgroundColorArray="@array/page_highlight_bg_color">
+    <com.douban.book.reader.view.WorksUGCView_ reader:layout_gravity="10" reader:id="@id/works_ugc" reader:layout_width="-1" reader:layout_height="-2" />
+</LinearLayout>

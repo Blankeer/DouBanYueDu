@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item reader:icon="@drawable/ic_action_search" reader:id="@id/action_search" reader:title="@string/action_search" reader:showAsAction="9" reader:actionViewClass="com.douban.book.reader.view.SpinnerSearchView" />
+</menu>

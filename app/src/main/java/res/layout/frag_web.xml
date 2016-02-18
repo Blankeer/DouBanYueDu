@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:layout_gravity="10" android:id="@id/url_bar" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+        <EditText android:textSize="12sp" android:id="@id/input_url" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" android:inputType="11" />
+        <Button android:id="@id/btn_go" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-2" android:layout_height="-2" android:text="@string/store_url_bar_go_button">
+            <requestFocus />
+        </Button>
+    </LinearLayout>
+    <FrameLayout android:id="@id/layout_base" android:layout_width="-1" android:layout_height="-1">
+        <com.douban.book.reader.view.ReaderWebView android:id="@id/webview" android:visibility="1" android:layout_width="-1" android:layout_height="-2" />
+    </FrameLayout>
+</LinearLayout>

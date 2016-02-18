@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator android:duration="@integer/anim_duration" android:valueFrom="180" android:valueTo="360" android:propertyName="rotation" />

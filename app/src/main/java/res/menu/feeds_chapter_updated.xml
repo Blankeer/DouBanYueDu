@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item reader:id="@id/action_mark_all_read" reader:title="@string/action_mark_all_read" reader:showAsAction="0" />
+    <item reader:icon="@drawable/ic_action_subscription_list" reader:id="@id/action_open_subscription_center" reader:title="@string/title_my_subscriptions" reader:showAsAction="0" />
+</menu>

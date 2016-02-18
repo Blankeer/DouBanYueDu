@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-2">
+    <RelativeLayout app:gravity="10" app:layout_gravity="10" app:paddingLeft="@dimen/page_horizontal_padding" app:paddingTop="@dimen/general_subview_vertical_padding_medium" app:paddingRight="@dimen/page_horizontal_padding" app:paddingBottom="@dimen/general_subview_vertical_padding_medium" app:layout_width="-1" app:layout_height="-2" app:backgroundColorArray="@array/page_highlight_bg_color">
+        <TextView app:textSize="@dimen/general_font_size_large" app:id="@id/price" app:layout_width="-2" app:layout_height="-2" app:layout_alignParentRight="true" app:textColorArray="@array/red" />
+        <TextView app:textSize="@dimen/general_font_size_large" app:id="@id/title_purchase" app:layout_marginRight="@dimen/general_subview_horizontal_padding_normal" app:layout_toLeftOf="@id/price" app:layout_alignTop="@id/price" app:layout_alignParentLeft="true" style="@style/AppWidget_Text_Title" />
+        <TextView app:textSize="@dimen/general_font_size_medium" app:id="@id/works_info" app:layout_marginTop="@dimen/general_subview_vertical_padding_normal" app:layout_below="@id/title_purchase" style="@style/AppWidget_Text_Secondary_Block" />
+    </RelativeLayout>
+    <View style="@style/AppWidget_Divider_Horizontal" />
+    <LinearLayout app:gravity="10" app:layout_gravity="1" app:id="@id/account_info_layout" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@dimen/general_subview_vertical_padding_large">
+        <TextView app:id="@id/text_purchase_secretly" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="@dimen/general_subview_padding_small" app:text="@string/btn_secretly" style="@style/AppWidget_Text_Secondary" />
+        <android.support.v7.widget.SwitchCompat app:id="@id/btn_purchase_secretly" app:layout_width="-2" app:layout_height="-2" app:theme="@style/AppTheme_Widget_Switch" />
+    </LinearLayout>
+    <Button app:layout_gravity="1" app:id="@id/btn_purchase" app:layout_marginTop="@dimen/general_subview_vertical_padding_large" app:layout_marginBottom="@dimen/general_subview_vertical_padding_large" style="@style/AppWidget_Button_Primary" />
+</LinearLayout>

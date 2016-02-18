@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/AppWidget_Page">
+    <ImageView app:id="@id/ic_gift" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="25dp" app:src="@drawable/ic_gift_wagtail" app:layout_centerHorizontal="true" app:autoDimInNightMode="true" />
+    <LinearLayout app:gravity="11" app:orientation="1" app:paddingLeft="30dp" app:paddingRight="30dp" app:layout_width="-1" app:layout_height="-1" app:layout_below="@id/ic_gift" app:layout_centerHorizontal="true">
+        <TextView app:textSize="@dimen/general_font_size_large" app:id="@id/recipient" app:layout_width="-1" app:layout_height="-2" style="@style/AppWidget_Text_Content" />
+        <com.douban.book.reader.view.FlexibleScrollView app:id="@id/gift_note_container" app:fadingEdge="2000" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="20dp" app:layout_marginBottom="40dp" app:requiresFadingEdge="2000">
+            <com.douban.book.reader.view.ParagraphView app:textSize="@dimen/general_font_size_large" app:id="@id/gift_note" app:layout_width="-1" app:layout_height="-2" style="@style/AppWidget_Text_Content_Block" />
+        </com.douban.book.reader.view.FlexibleScrollView>
+        <TextView app:textSize="@dimen/general_font_size_large" app:gravity="5" app:id="@id/giver" app:layout_width="-1" app:layout_height="-2" style="@style/AppWidget_Text_Content" />
+        <TextView app:textSize="@dimen/general_font_size_large" app:gravity="5" app:id="@id/give_time" app:paddingTop="5dp" app:layout_width="-1" app:layout_height="-2" style="@style/AppWidget_Text_Content" />
+    </LinearLayout>
+</RelativeLayout>

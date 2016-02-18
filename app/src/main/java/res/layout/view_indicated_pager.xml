@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <com.douban.book.reader.view.StoreViewPager android:id="@id/pager" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <com.viewpagerindicator.CirclePageIndicator android:id="@id/circle_indicator" android:layout_width="100dp" android:layout_height="20dp" android:layout_marginTop="@dimen/general_subview_vertical_padding_normal" android:layout_below="@id/pager" android:layout_centerHorizontal="true" style="@style/AppWidget_CircleIndicator" />
+</merge>

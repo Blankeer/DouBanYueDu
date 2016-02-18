@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout app:id="@id/drawer_layout" app:background="?unknown_attr_ref: 7f0100ce" app:layout_width="-1" app:layout_height="-1">
+    <LinearLayout app:orientation="1" app:fitsSystemWindows="true" app:layout_width="-1" app:layout_height="-1">
+        <com.douban.book.reader.view.OverlayToolbar app:id="@id/toolbar" style="@style/AppWidget_Toolbar" />
+        <FrameLayout app:id="@id/frag_container" app:layout_width="-1" app:layout_height="-1" app:foreground="?unknown_attr_ref: 1010059" app:backgroundColorArray="@array/page_bg_color" />
+    </LinearLayout>
+    <FrameLayout app:layout_gravity="800003" app:id="@id/frag_drawer" app:clickable="true" app:layout_width="@dimen/navigation_drawer_width" app:layout_height="-1" />
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/AppWidget_Page_NoPadding">
+    <LinearLayout app:orientation="1" app:id="@id/top_view" app:layout_width="-1" app:layout_height="-2" app:layout_alignParentTop="true" />
+    <LinearLayout app:orientation="1" app:id="@id/bottom_view" app:layout_width="-1" app:layout_height="-2" app:layout_alignParentBottom="true" />
+    <ScrollView app:id="@id/edit_base" app:layout_width="-1" app:layout_height="-1" app:fillViewport="true" app:layout_above="@id/bottom_view" app:layout_below="@id/top_view" app:layout_alignWithParentIfMissing="true">
+        <EditText app:id="@id/edit" app:layout_width="-1" app:layout_height="-2" style="@style/AppWidget_EditText_MultiLine">
+            <requestFocus />
+        </EditText>
+    </ScrollView>
+    <TextView app:id="@id/char_count" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="@dimen/general_subview_horizontal_padding_normal" app:layout_marginBottom="@dimen/general_subview_vertical_padding_medium" app:layout_alignRight="@id/edit_base" app:layout_alignBottom="@id/edit_base" />
+</RelativeLayout>

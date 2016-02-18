@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout app:layout_width="-1" app:layout_height="-1">
+    <ScrollView app:layout_width="-1" app:layout_height="-1" app:fillViewport="true">
+        <LinearLayout app:gravity="1" app:orientation="1" app:paddingTop="@dimen/general_subview_vertical_padding_huge" app:paddingBottom="@dimen/general_subview_vertical_padding_huge" app:layout_height="-2" style="@style/AppWidget_Page">
+            <View app:layout_width="-1" app:layout_height="0dp" app:layout_weight="1.0" />
+            <ImageView app:layout_width="-2" app:layout_height="-2" app:src="@drawable/ic_logo_about" app:autoDimInNightMode="true" />
+            <TextView app:id="@id/text_version" app:layout_marginTop="@dimen/general_subview_vertical_padding_large" style="@style/AppWidget_Text_Secondary" />
+            <TextView app:textSize="@dimen/general_font_size_small" app:id="@id/text_uid" style="@style/AppWidget_Text_Secondary" />
+            <Button app:gravity="11" app:id="@id/button_changelog" app:layout_marginTop="@dimen/general_subview_vertical_padding_large" app:text="@string/btn_changelog" style="@style/AppWidget_Button_Secondary" />
+            <Button app:gravity="11" app:id="@id/button_check_update" app:layout_marginTop="@dimen/general_subview_vertical_padding_normal" app:text="@string/btn_check_update" style="@style/AppWidget_Button_Primary" />
+            <View app:layout_marginTop="30dp" style="@style/AppWidget_Divider_Horizontal" />
+            <TextView app:id="@id/copyright" app:paddingLeft="@dimen/page_horizontal_padding" app:paddingRight="@dimen/page_horizontal_padding" app:layout_marginTop="30dp" app:text="@string/copyright" style="@style/AppWidget_Text_Secondary" />
+            <TextView app:id="@id/acknowledgements" app:paddingLeft="@dimen/page_horizontal_padding" app:paddingRight="@dimen/page_horizontal_padding" app:layout_marginTop="@dimen/general_subview_vertical_padding_small" app:text="@string/acknowledgements" style="@style/AppWidget_Text_Secondary" />
+            <View app:layout_width="-1" app:layout_height="0dp" app:layout_weight="1.0" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

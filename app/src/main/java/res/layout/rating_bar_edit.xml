@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-2" android:layout_height="-2">
+    <RatingBar android:id="@id/rating_bar" android:layout_width="-2" style="@style/AppWidget_RatingBar_Edit" />
+</FrameLayout>

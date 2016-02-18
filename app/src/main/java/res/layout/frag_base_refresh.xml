@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/base_refresh_root" android:layout_width="-1" android:layout_height="-1">
+    <com.douban.book.reader.lib.view.ArkSwipeRefreshLayout android:id="@id/swipe_refresh_layout_base" android:layout_width="-1" android:layout_height="-1" />
+</FrameLayout>

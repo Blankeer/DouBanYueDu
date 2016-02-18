@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item reader:icon="@drawable/ic_action_share" reader:id="@id/action_share" reader:title="@string/action_share" reader:showAsAction="1" />
+</menu>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout reader:layout_width="-1" reader:layout_height="-1">
+    <FrameLayout reader:id="@id/bottom_frame" reader:paddingBottom="20dp" reader:layout_width="-1" reader:layout_height="@dimen/welcome_button_area_height" reader:layout_alignParentBottom="true">
+        <LinearLayout reader:gravity="1" reader:orientation="1" reader:id="@id/layout_loading" reader:layout_width="-1" reader:layout_height="-2">
+            <ProgressBar reader:layout_width="-2" reader:layout_height="-2" reader:indeterminateDrawable="@drawable/drawable_progress_no_bird" />
+        </LinearLayout>
+        <LinearLayout reader:gravity="1" reader:orientation="1" reader:id="@id/layout_retry" reader:visibility="2" reader:layout_width="-1" reader:layout_height="-2">
+            <TextView reader:textColor="@color/white" reader:id="@id/message" reader:paddingLeft="@dimen/page_horizontal_padding" reader:paddingRight="@dimen/page_horizontal_padding" reader:layout_width="-2" reader:layout_height="-2" reader:textColorArray="@dx/a" style="@style/AppWidget_Text_Secondary" />
+            <Button reader:id="@id/btn_retry" reader:layout_marginTop="15dp" reader:text="@string/button_retry" style="@style/AppWidget_Button_Primary" />
+        </LinearLayout>
+        <ImageView reader:layout_gravity="51" reader:id="@id/special_logo" reader:padding="15dp" reader:visibility="2" reader:layout_width="-2" reader:layout_height="-2" />
+    </FrameLayout>
+</RelativeLayout>

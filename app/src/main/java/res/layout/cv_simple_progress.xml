@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="10" android:orientation="1" android:padding="@dimen/spv_padding" android:layout_width="-1" android:layout_height="-2" android:minHeight="@dimen/spv_prefered_height" android:layout_weight="1.0">
+    <TextView android:textSize="@dimen/spv_font_size" android:textColor="@color/spv_text_secondary" android:gravity="11" android:id="@id/spv_text" android:padding="@dimen/spv_padding" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="@string/spv_default_text" />
+    <LinearLayout android:gravity="11" android:layout_gravity="11" android:orientation="0" android:id="@id/spv_progress" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+        <ProgressBar android:id="@id/spv_progress_bar" android:layout_width="-2" android:layout_height="-2" android:indeterminate="true" style="?unknown_attr_ref: 1010077" />
+        <TextView android:textSize="@dimen/spv_font_size" android:id="@id/spv_progress_text" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@dimen/spv_padding" android:text="@string/spv_default_progress_text" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <View android:id="@id/divider" style="@style/AppWidget_Divider_Horizontal" />
+    <RelativeLayout android:gravity="10" android:id="@id/header_layout" android:paddingLeft="@dimen/page_horizontal_padding" android:paddingRight="@dimen/page_horizontal_padding" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:gravity="800013" android:id="@id/title" android:paddingTop="@dimen/general_subview_vertical_padding_medium" android:paddingBottom="@dimen/general_subview_vertical_padding_medium" android:visibility="2" android:drawablePadding="3dp" android:layout_centerVertical="true" style="@style/AppWidget_Text_Title_Column" />
+        <LinearLayout android:orientation="0" android:id="@id/top_views" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/general_font_size_medium" android:ellipsize="3" android:id="@id/sub_title" android:paddingLeft="@dimen/page_horizontal_padding" android:paddingRight="@dimen/page_horizontal_padding" android:paddingBottom="@dimen/general_font_size_small" android:visibility="2" android:maxLines="2" style="@style/AppWidget_Text_Content" />
+    <RelativeLayout android:id="@id/content" android:paddingLeft="@dimen/page_horizontal_padding" android:paddingRight="@dimen/page_horizontal_padding" android:layout_width="-1" android:layout_height="-2" />
+</merge>

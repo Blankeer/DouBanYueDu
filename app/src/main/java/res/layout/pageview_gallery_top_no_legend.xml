@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge app:layout_width="-1" app:layout_height="-1">
+    <ImageView app:id="@id/gallery_more" app:layout_width="-2" app:layout_height="-2" app:layout_alignParentRight="true" app:layout_alignParentBottom="true" app:autoDimInNightMode="true" />
+    <ImageView app:id="@id/gallery_share" app:layout_width="-2" app:layout_height="-2" app:layout_toLeftOf="@id/gallery_more" app:layout_alignParentBottom="true" app:autoDimInNightMode="true" />
+</merge>

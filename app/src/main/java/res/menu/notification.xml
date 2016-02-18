@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item reader:id="@id/action_mark_all_read" reader:title="@string/action_mark_all_read" reader:showAsAction="0" />
+</menu>

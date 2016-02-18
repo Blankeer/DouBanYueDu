@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:id="@id/reader_overlay" app:background="#d1222222" app:layout_width="-1" app:layout_height="-2" app:layout_alignParentTop="true">
+    <HorizontalScrollView app:id="@id/reader_overlay_index_scroller" app:background="@color/reader_overlay_chapter_index_bg" app:scrollbars="0" app:layout_width="-1" app:layout_height="-2">
+        <LinearLayout app:orientation="0" app:id="@id/reader_overlay_index" app:visibility="2" app:layout_width="-2" app:layout_height="24dp" />
+    </HorizontalScrollView>
+    <TextView app:textSize="10dp" app:textColor="#eeeeee" app:gravity="10" app:id="@id/reader_overlay_guide" app:background="@color/reader_overlay_chapter_index_bg" app:paddingLeft="5dp" app:layout_width="-1" app:layout_height="24dp" app:text="@string/text_reader_overlay_guide" app:drawableLeft="@drawable/ic_reader_overlay_guide" app:drawablePadding="5dp" app:textColorArray="@dx/a" />
+    <LinearLayout app:layout_width="-1" app:layout_height="-1">
+        <TextView app:textColor="#cccccc" app:gravity="11" app:id="@id/reader_overlay_progress" app:paddingLeft="5dp" app:paddingRight="5dp" app:layout_width="-2" app:layout_height="-1" app:textColorArray="@dx/a" />
+        <TextView app:textSize="15dp" app:textColor="#ffffff" app:id="@id/reader_overlay_title" app:padding="10dp" app:layout_width="-1" app:layout_height="-2" app:textColorArray="@dx/a" />
+    </LinearLayout>
+</LinearLayout>

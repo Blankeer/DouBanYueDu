@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:layout_gravity="1" android:id="@id/hint_view" android:layout_marginTop="@dimen/general_subview_vertical_padding_huge" style="@style/AppWidget_Text_Secondary" />
+    <se.emilsjolander.stickylistheaders.StickyListHeadersListView android:id="@id/list" style="@style/AppWidget_List" />
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <TextView android:id="@id/works_kind" android:layout_width="-1" android:layout_margin="1px" style="@style/AppWidget_Text_Clickable" />
+</merge>

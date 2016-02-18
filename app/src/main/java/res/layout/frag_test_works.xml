@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:id="@id/layout_base" android:layout_width="-1" android:layout_height="-2" style="@style/AppWidget_Page"
+        <LinearLayout android:layout_width="-1" android:layout_height="-2">
+            <EditText android:id="@id/text_works_id" android:layout_width="0dp" android:layout_height="-2" android:hint="请输入id" android:layout_weight="1.0" android:inputType="2" />
+            <Button android:id="@id/btn_open_works" android:layout_width="-2" android:layout_height="-2" android:text="打开书籍" />
+            <Button android:id="@id/btn_open_column" android:layout_width="-2" android:layout_height="-2" android:text="打开专栏" />
+        </LinearLayout>
+        <TextView android:layout_width="-1" android:layout_height="-2" android:text="
+或者可以选择：" />
+    </LinearLayout>
+</ScrollView>

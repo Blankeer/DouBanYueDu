@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioButton android:textSize="@dimen/general_font_size_normal" android:paddingTop="@dimen/general_subview_vertical_padding_normal" android:paddingBottom="@dimen/general_subview_vertical_padding_normal" android:button="@dx/a" android:text="@string/title_purchase_record" android:drawableRight="@drawable/check_mark_round" style="@style/AppWidget_List_Item" />

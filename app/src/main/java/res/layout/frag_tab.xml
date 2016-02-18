@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" style="@style/AppWidget_Page_NoPadding">
+        <com.douban.book.reader.view.TabPageIndicator android:id="@id/view_pager_indicator" android:layout_width="-1" android:layout_height="@dimen/height_tab_indicator" />
+        <View style="@style/AppWidget_Divider_Horizontal" />
+        <android.support.v4.view.ViewPager android:id="@id/view_pager" android:layout_width="-1" android:layout_height="-1" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:gravity="1" app:orientation="1" app:layout_width="-1" app:layout_height="-1">
+    <Button app:id="@id/button" app:textColorArray="@array/red" style="@style/AppWidget_Button_Secondary_Large" />
+</LinearLayout>

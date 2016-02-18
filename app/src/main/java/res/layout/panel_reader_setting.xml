@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView app:layout_width="-1" app:layout_height="-2">
+    <LinearLayout app:orientation="1" app:padding="0dp" app:clickable="true" app:layout_width="-1" app:layout_height="-2" style="@style/AppWidget_Page">
+        <FrameLayout app:gravity="10" app:orientation="0" app:id="@id/panel_brightness_seekbar" app:paddingLeft="@dimen/page_horizontal_padding" app:paddingRight="@dimen/page_horizontal_padding" app:layout_width="-1" app:layout_height="-2">
+            <com.douban.book.reader.view.IndexedSeekBar app:layout_gravity="1" app:id="@id/brightness_seekbar" app:paddingTop="20dp" app:paddingBottom="20dp" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="@dimen/general_subview_horizontal_padding_medium" app:layout_marginRight="@dimen/general_subview_horizontal_padding_medium" app:maxHeight="20dp" app:minHeight="20dp" app:thumbOffset="14dp" />
+            <ImageView app:layout_gravity="800013" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/ic_reader_brightness_darker" app:scaleType="3" app:autoDimInNightMode="true" />
+            <ImageView app:layout_gravity="800015" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/ic_reader_brightness_brighter" app:scaleType="3" app:autoDimInNightMode="true" />
+        </FrameLayout>
+        <LinearLayout app:gravity="10" app:paddingLeft="@dimen/page_horizontal_padding" app:paddingTop="@dimen/general_subview_vertical_padding_small" app:paddingRight="@dimen/page_horizontal_padding" app:paddingBottom="@dimen/general_subview_vertical_padding_small" app:layout_width="-1" app:layout_height="-2">
+            <TextView app:layout_width="0dp" app:layout_height="-2" app:text="@string/msg_use_system_brightness" app:layout_weight="1.0" style="@style/AppWidget_Text_Blue" />
+            <android.support.v7.widget.SwitchCompat app:id="@id/switch_use_system_brightness" app:layout_width="-2" app:layout_height="-2" app:theme="@style/AppTheme_Widget_Switch" />
+        </LinearLayout>
+        <View style="@style/AppWidget_Divider_Horizontal" />
+        <RadioGroup app:gravity="11" app:orientation="0" app:id="@id/radio_group_theme" app:paddingLeft="@dimen/page_horizontal_padding" app:paddingTop="@dimen/general_subview_vertical_padding_normal" app:paddingRight="@dimen/page_horizontal_padding" app:paddingBottom="@dimen/general_subview_vertical_padding_normal" app:layout_width="-1" app:layout_height="-2">
+            <RadioButton app:id="@id/btn_theme_day" app:paddingRight="2dp" app:layout_marginRight="@dimen/general_subview_vertical_padding_normal" app:button="@dx/a" app:text="@string/btn_theme_day" app:drawableRight="@drawable/check_mark_round" app:layout_weight="1.0" style="@style/AppWidget_Button_Radio_White" />
+            <RadioButton app:id="@id/btn_theme_night" app:paddingRight="2dp" app:layout_marginLeft="@dimen/general_subview_vertical_padding_normal" app:button="@dx/a" app:text="@string/btn_theme_night" app:drawableRight="@drawable/check_mark_round" app:layout_weight="1.0" style="@style/AppWidget_Button_Radio_Black" />
+        </RadioGroup>
+        <TextView app:id="@id/text_theme_disabled_for_gallery" app:paddingLeft="@dimen/page_horizontal_padding" app:paddingTop="@dimen/general_subview_vertical_padding_normal" app:paddingRight="@dimen/page_horizontal_padding" app:paddingBottom="@dimen/general_subview_vertical_padding_normal" app:visibility="2" app:layout_width="-1" app:layout_height="-2" app:text="@string/msg_theme_disabled_for_gallery" style="@style/AppWidget_Text_Secondary" />
+        <View style="@style/AppWidget_Divider_Horizontal" />
+        <RadioGroup app:orientation="1" app:id="@id/radio_group_font" app:layout_width="-1" app:layout_height="-2">
+            <RadioButton app:id="@id/btn_font_small" app:paddingLeft="@dimen/page_horizontal_padding" app:paddingRight="@dimen/page_horizontal_padding" app:text="@string/btn_font_small" style="@style/AppWidget_RadioButton_Vertical" />
+            <View style="@style/AppWidget_Divider_Horizontal" />
+            <RadioButton app:id="@id/btn_font_medium" app:paddingLeft="@dimen/page_horizontal_padding" app:paddingRight="@dimen/page_horizontal_padding" app:text="@string/btn_font_medium" style="@style/AppWidget_RadioButton_Vertical" />
+            <View style="@style/AppWidget_Divider_Horizontal" />
+            <RadioButton app:id="@id/btn_font_large" app:paddingLeft="@dimen/page_horizontal_padding" app:paddingRight="@dimen/page_horizontal_padding" app:text="@string/btn_font_large" style="@style/AppWidget_RadioButton_Vertical" />
+            <View style="@style/AppWidget_Divider_Horizontal" />
+            <RadioButton app:id="@id/btn_font_huge" app:paddingLeft="@dimen/page_horizontal_padding" app:paddingRight="@dimen/page_horizontal_padding" app:text="@string/btn_font_huge" style="@style/AppWidget_RadioButton_Vertical" />
+        </RadioGroup>
+    </LinearLayout>
+</ScrollView>

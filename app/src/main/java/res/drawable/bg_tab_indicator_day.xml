@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:state_checked="true" android:drawable="@drawable/drawable_tab_indicator_item_selected_day" />
+    <item android:state_selected="true" android:drawable="@drawable/drawable_tab_indicator_item_selected_day" />
+    <item android:state_pressed="true" android:drawable="@color/day_tab_bg_selected" />
+    <item android:drawable="@color/day_tab_bg_normal" />
+</selector>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1">
+    <View android:id="@id/background" android:background="#000000" android:layout_width="-1" android:layout_height="-1" android:alpha="0.0" />
+    <FrameLayout android:id="@id/fit_system_window_base" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1">
+        <RelativeLayout android:id="@id/panel_frame" android:layout_width="-1" android:layout_height="-1">
+            <com.douban.book.reader.view.OverlayToolbar android:id="@id/toolbar" android:visibility="2" android:layout_alignParentTop="true" style="@style/AppWidget_Toolbar" />
+            <com.douban.book.reader.view.panel.CommandBarView_ android:id="@id/command_bar" android:visibility="1" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" />
+            <com.douban.book.reader.view.panel.SeekTipView_ android:id="@id/seek_tip" android:visibility="1" android:layout_width="-1" android:layout_height="-2" android:layout_below="@id/toolbar" />
+        </RelativeLayout>
+        <com.douban.book.reader.view.panel.ReaderSettingView_ android:layout_gravity="50" android:id="@id/reader_setting" android:visibility="2" android:layout_width="-1" android:layout_height="-2" />
+    </FrameLayout>
+    <com.douban.book.reader.lib.view.DraggableLayout android:layout_gravity="5" android:id="@id/right_drawer_frag_container" android:visibility="2" android:layout_width="@dimen/navigation_right_drawer_width" android:layout_height="-1" />
+</FrameLayout>

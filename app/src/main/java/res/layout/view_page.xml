@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge app:layout_width="-1" app:layout_height="-1">
+    <ImageView app:id="@id/icon_bookmark_off" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="@dimen/reader_horizontal_padding" app:src="@drawable/ic_bookmark_off" app:layout_alignParentTop="true" app:layout_alignParentRight="true" />
+    <TextView app:textSize="14dp" app:id="@id/text_bookmark_guide" app:layout_marginTop="5dp" app:layout_marginRight="5dp" app:text="@string/text_pull_add_bookmark" app:layout_toLeftOf="@id/icon_bookmark_off" app:layout_alignParentTop="true" style="@style/AppWidget_Text_Secondary" />
+    <ImageView app:id="@id/bookmark_holy_egg" app:paddingBottom="30dp" app:layout_width="-2" app:layout_height="-2" app:layout_centerInParent="true" />
+    <FrameLayout app:id="@id/pageview_placeholder" app:layout_width="-1" app:layout_height="-1" />
+    <ImageView app:id="@id/icon_bookmark_on" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/ic_bookmark_on" app:layout_alignTop="@id/icon_bookmark_off" app:layout_alignRight="@id/icon_bookmark_off" app:autoDimInNightMode="true" />
+    <TextView app:gravity="11" app:id="@id/text_bookmark_pagenum" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="-5dp" app:layout_marginTop="15dp" app:layout_marginRight="-5dp" app:singleLine="true" app:layout_alignLeft="@id/icon_bookmark_off" app:layout_alignTop="@id/icon_bookmark_off" app:layout_alignRight="@id/icon_bookmark_off" app:textColorArray="@array/invert_text_color" />
+    <AbsoluteLayout app:id="@id/absolutelayout" app:layout_width="-1" app:layout_height="-1" />
+</merge>
